@@ -1,0 +1,329 @@
+DATOS GENERALES: ['ID ','A']input: '=+General!D3
+DATOS GENERALES: ['Apellido y Nombre','B']input: '=+General!B4
+DATOS GENERALES: ['Edad ','C']input: '=+General!B5
+DATOS GENERALES: ['Género','D']input: '=+General!D5
+DATOS GENERALES: ['Altura (cm)','E']input: '=+General!B6
+DATOS GENERALES: ['Peso real (Kg)','F']input: '=+General!G5
+DATOS GENERALES: ['IMC','G']input: 'None
+DATOS GENERALES: ['Peso predicho','H']input: '=+General!D6
+DATOS GENERALES: ['Fecha de ingreso UTI','I']input: '=+General!G4
+DATOS GENERALES: ['Fecha de egreso UTI','J']input: '=+General!D38
+DATOS GENERALES: ['Condición egreso','K']input: '=+General!B38
+DATOS GENERALES: ['Destino egreso','L']input: '=+General!J38
+DATOS GENERALES: ['Fecha de ingreso Hosp','M']input: '=+General!G3
+DATOS GENERALES: ['LOS previo UTI','N']input: 'None
+DATOS GENERALES: ['LOS UTI','O']input: 'None
+DATOS GENERALES: ['LET','P']input: '=+General!B39
+DATOS GENERALES: ['SAPS II','Q']input: '=+General!I5
+DATOS GENERALES: ['% SAPS II','R']input: '=+General!J5
+DATOS GENERALES: ['APACHE II','S']input: '=+General!I4
+DATOS GENERALES: ['% APACHE II','T']input: '=+General!J4
+DATOS GENERALES: ['SOFA','U']input: 'None
+DATOS GENERALES: ['N disfunciones SOFA','V']input: 'None
+DATOS GENERALES: ['CHARLSON','W']input: '=+General!J6
+DATOS GENERALES: ['Tipo de ingreso','X']input: '=+General!G6
+DATOS GENERALES: ['Diagnóstico de ingreso','Y']input: '=+General!B10
+ANTECEDENTES: ['HTA','Z']input: '=+General!B7
+ANTECEDENTES: ['IAM','AA']input: '=+General!C7
+ANTECEDENTES: ['IC','AB']input: '=+General!D7
+ANTECEDENTES: ['PCR','AC']input: '=+General!E7
+ANTECEDENTES: ['EPOC','AD']input: '=+General!F7
+ANTECEDENTES: ['TBQ','AE']input: '=+General!G7
+ANTECEDENTES: ['EX TBQ','AF']input: '=+General!H7
+ANTECEDENTES: ['ASMA','AG']input: '=+General!I7
+ANTECEDENTES: ['OCD','AH']input: '=+General!J7
+ANTECEDENTES: ['NMN','AI']input: '=+General!A8
+ANTECEDENTES: ['VMI PREVIA','AJ']input: '=+General!B8
+ANTECEDENTES: ['VNI DOMICILIARIA','AK']input: '=+General!C8
+ANTECEDENTES: ['ACV','AL']input: '=+General!D8
+ANTECEDENTES: ['TEC','AM']input: '=+General!E8
+ANTECEDENTES: ['ANEURISMA','AN']input: '=+General!F8
+ANTECEDENTES: ['ENF NEUROMUSC','AO']input: '=+General!G8
+ANTECEDENTES: ['DBT','AP']input: '=+General!H8
+ANTECEDENTES: ['OBESIDAD','AQ']input: '=+General!I8
+ANTECEDENTES: ['HIPOTIROIDISMO','AR']input: '=+General!J8
+ANTECEDENTES: ['HIPERTIROIDISMO','AS']input: '=+General!A9
+ANTECEDENTES: ['INSUF RENAL','AT']input: '=+General!B9
+ANTECEDENTES: ['POP','AU']input: '=+General!C9
+ANTECEDENTES: ['TBC','AV']input: '=+General!D9
+ANTECEDENTES: ['HIV','AW']input: '=+General!E9
+ANTECEDENTES: ['HEPATITIS','AX']input: '=+General!F9
+ANTECEDENTES: ['CHAGAS','AY']input: '=+General!G9
+ANTECEDENTES: ['CONSUMO DE SUSTANCIAS','AZ']input: '=+General!H9
+ANTECEDENTES: ['REUMATOLOGICOS','BA']input: '=+General!I9
+ANTECEDENTES: ['PSIQUIATRICOS','BB']input: '=+General!J9
+ANTECEDENTES: ['ONCOLOGICOS','BC']input: 'None
+ANTECEDENTES: ['OTROS','BD']input: 'None
+AVMi: ['Fecha IOT','BE']input: '=+General!B22
+AVMi: ['Inicio AVMi','BF']input: '=+General!H22
+AVMi: ['Fin AVMi','BG']input: '=+General!J22
+AVMi: ['Días AVMi','BH']input: '=IFS(OR(BF6="",BG6=""),"N/C",BG6-BF6=0,"1",AND(ISDATE(BF6),ISDATE(BG6)),BG6-BF6)
+AVMi: ['Días AVMi previo UTI','BI']input: 'None
+AVMi: ['Días de TOT','BJ']input: '=+General!H43
+AVMi: ['Motivo AVMi','BK']input: '=+General!B25
+AVMi: ['Otro Motivo','BL']input: 'None
+AVMi: ['Ingresa ARM','BM']input: '=+General!D23
+AVMi: ['Transtubación','BN']input: '=+General!F23
+AVMi: ['Nº transtubación','BO']input: '=+General!H23
+AVMi: ['Días libres de VM al día 28','BP']input: '=IFS(AND(ISDATE(BF6),K6="MUERTO"),0,AND(ISDATE(BF6),AND(K6="VIVO",BH6>28)),0,AND(ISDATE(BF6),AND(K6="VIVO",BH6<=28)),28-BH6,K6="","")
+AVMi: ['Nuevo evento','BQ']input: '=+General!B27
+AVMi: ['Inicio nuevo evento','BR']input: '=+General!D27
+AVMi: ['Fin nuevo evento','BS']input: '=+General!F27
+WEANING: ['Fecha de inicio','BT']input: '=+General!B29
+WEANING: ['Método PVE','BU']input: '=+General!D29
+WEANING: ['Tiempo PVE','BV']input: '=+General!F29
+WEANING: ['Fecha EOT','BW']input: '=+General!B30
+WEANING: ['Tipo EOT','BX']input: '=+General!D30
+WEANING: ['Falla EOT','BY']input: '=+General!F30
+WEANING: ['Hs a la falla','BZ']input: '=+General!I30
+WEANING: ['ReIOT','CA']input: '=+General!B33
+WEANING: ['Motivo ReIOT','CB']input: '=+General!D33
+WEANING: ['Nº Fallas EOT','CC']input: '=+General!F33
+WEANING: ['Nº de PVE','CD']input: '=+General!I33
+WEANING: ['WIND','CE']input: '=+General!J29
+WEANING: ['BOLES','CF']input: '=+General!H29
+WEANING: ['Egresa dependiente VM','CG']input: '=+General!H38
+TRAQUEOSTOMÍA: ['Ingresa TQT','CH']input: '=+General!B23
+TRAQUEOSTOMÍA: ['Fecha TQT','CI']input: '=+General!C35
+TRAQUEOSTOMÍA: ['Tipo TQT','CJ']input: '=+General!E35
+TRAQUEOSTOMÍA: ['Cambio TQT','CK']input: '=+General!H35
+TRAQUEOSTOMÍA: ['Nº cambios TQT','CL']input: '=+General!J35
+TRAQUEOSTOMÍA: ['Decanulado','CM']input: '=+General!C36
+TRAQUEOSTOMÍA: ['Fecha decanulación','CN']input: '=+General!E36
+TRAQUEOSTOMÍA: ['Días de TQT','CO']input: 'None
+TRAQUEOSTOMÍA: ['Días de tubo a TQT','CP']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['CNAFO','CQ']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Motivo CNAFO','CR']input: '=+General!B19
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de inicio','CS']input: '=+General!D19
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de fin','CT']input: '=+General!F19
+SOPORTE NO INVASIVO PREVIO VMI: ['Falla','CU']input: '=+General!H19
+SOPORTE NO INVASIVO PREVIO VMI: ['Causa de falla','CV']input: '=+General!J19
+SOPORTE NO INVASIVO PREVIO VMI: ['Días CNAFO','CW']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['VMNI','CX']input: '=+General!B20
+SOPORTE NO INVASIVO PREVIO VMI: ['Motivo VMNI','CY']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de inicio','CZ']input: '=+General!D20
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de fin','DA']input: '=+General!F20
+SOPORTE NO INVASIVO PREVIO VMI: ['Falla','DB']input: '=+General!H20
+SOPORTE NO INVASIVO PREVIO VMI: ['Causa de falla','DC']input: '=+General!J20
+SOPORTE NO INVASIVO PREVIO VMI: ['Días VMNI','DD']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['CNAFO','DE']input: '=+General!B32
+SOPORTE NO INVASIVO EN WEANING: ['Motivo','DF']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de inicio','DG']input: '=+General!D32
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de fin','DH']input: '=+General!F32
+SOPORTE NO INVASIVO EN WEANING: ['Falla','DI']input: '=+General!H32
+SOPORTE NO INVASIVO EN WEANING: ['ReIOT Post CNAFO','DJ']input: '=+General!J32
+SOPORTE NO INVASIVO EN WEANING: ['Días CNAFO','DK']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['VMNI','DL']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Motivo','DM']input: '=+General!B31
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de inicio','DN']input: '=+General!D31
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de fin','DO']input: '=+General!F31
+SOPORTE NO INVASIVO EN WEANING: ['Falla','DP']input: '=+General!H31
+SOPORTE NO INVASIVO EN WEANING: ['ReIOT post VMNI','DQ']input: '=+General!J31
+SOPORTE NO INVASIVO EN WEANING: ['Días VMNI','DR']input: 'None
+COMPLICACIONES GENERALES: ['TEP','DS']input: '=+General!B40
+COMPLICACIONES GENERALES: ['IAM','DT']input: '=+General!C40
+COMPLICACIONES GENERALES: ['PCR','DU']input: '=+General!D40
+COMPLICACIONES GENERALES: ['SDRA','DV']input: '=+General!E40
+COMPLICACIONES GENERALES: ['BNMr','DW']input: '=+General!F40
+COMPLICACIONES GENERALES: ['PRONO','DX']input: '=+General!G40
+COMPLICACIONES GENERALES: ['DAUCI','DY']input: '=+General!H40
+COMPLICACIONES GENERALES: ['BAROTRAUMA','DZ']input: '=+General!I40
+COMPLICACIONES GENERALES: ['FMO','EA']input: '=+General!J40
+COMPLICACIONES GENERALES: ['EOT NO PROGRAMADA','EB']input: '=+General!B41
+COMPLICACIONES GENERALES: ['DELIRIUM','EC']input: '=+General!C41
+COMPLICACIONES GENERALES: ['PaFiO2 <200','ED']input: '=+General!D41
+COMPLICACIONES GENERALES: ['SHOCK/SEPSIS','EE']input: '=+General!E41
+COMPLICACIONES GENERALES: ['I. RENAL','EF']input: '=+General!F41
+COMPLICACIONES GENERALES: ['NAVM','EG']input: '=+General!G41
+COMPLICACIONES GENERALES: ['LESIONES FACIALES','EH']input: '=+General!H41
+COMPLICACIONES GENERALES: ['CAMBIO DE INTERFAZ POR DISCONFORT','EI']input: '=+General!I41
+COMPLICACIONES GENERALES: ['Nº de Complicac','EJ']input: '=+General!J41
+DROGAS: ['SEDANTES','EK']input: 'None
+DROGAS: ['MDZ','EL']input: 'None
+DROGAS: ['PROPO','EM']input: 'None
+DROGAS: ['DEXMEDETO','EN']input: 'None
+DROGAS: ['MDZ/PROPO','EO']input: 'None
+DROGAS: ['KETAMINA','EP']input: 'None
+DROGAS: ['OTRO SEDANTE','EQ']input: 'None
+DROGAS: ['ANALGESIA','ER']input: 'None
+DROGAS: ['FNT','ES']input: 'None
+DROGAS: ['MORFINA','ET']input: 'None
+DROGAS: ['REMIFNT','EU']input: 'None
+DROGAS: ['DOLOFRIX','EV']input: 'None
+DROGAS: ['AINES','EW']input: 'None
+DROGAS: ['OTROS ANALGÉSICOS','EX']input: 'None
+DROGAS: ['INOTRÓPICOS','EY']input: 'None
+DROGAS: ['NORA','EZ']input: 'None
+DROGAS: ['VASOPRESINA','FA']input: 'None
+DROGAS: ['DOPA','FB']input: 'None
+DROGAS: ['NORA/VASO','FC']input: 'None
+DROGAS: ['DOBUTA','FD']input: 'None
+DROGAS: ['MILRI','FE']input: 'None
+DROGAS: ['OTROS INOTRÓPICOS','FF']input: 'None
+DROGAS: ['ANTIPSICÓTICOS','FG']input: 'None
+DROGAS: ['QTP','FH']input: 'None
+DROGAS: ['HLP','FI']input: 'None
+DROGAS: ['QTP/HLP','FJ']input: 'None
+DROGAS: ['BNM','FK']input: 'None
+DROGAS: ['ATRA','FL']input: 'None
+DROGAS: ['ROCURONIO','FM']input: 'None
+DELIRIUM: ['POSITIVO','FN']input: 'None
+DELIRIUM: ['NEGATIVO','FO']input: 'None
+DELIRIUM: ['N/E','FP']input: 'None
+MODO VENTILATORIO (DÍAS): ['1','FQ']input: '=+Monitoreo!C29
+MODO VENTILATORIO (DÍAS): ['2','FR']input: '=+Monitoreo!D29
+MODO VENTILATORIO (DÍAS): ['3','FS']input: '=+Monitoreo!E29
+MODO VENTILATORIO (DÍAS): ['5','FT']input: '=+Monitoreo!F29
+MODO VENTILATORIO (DÍAS): ['7','FU']input: '=+Monitoreo!G29
+Vt/Pi SETEADA (DÍAS): ['1','FV']input: 'None
+Vt/Pi SETEADA (DÍAS): ['2','FW']input: 'None
+Vt/Pi SETEADA (DÍAS): ['3','FX']input: 'None
+Vt/Pi SETEADA (DÍAS): ['5','FY']input: 'None
+Vt/Pi SETEADA (DÍAS): ['7','FZ']input: 'None
+FR SETEADA: ['1','GA']input: 'None
+FR SETEADA: ['2','GB']input: 'None
+FR SETEADA: ['3','GC']input: 'None
+FR SETEADA: ['5','GD']input: 'None
+FR SETEADA: ['7','GE']input: 'None
+PEEP SETEADA: ['1','GF']input: 'None
+PEEP SETEADA: ['2','GG']input: 'None
+PEEP SETEADA: ['3','GH']input: 'None
+PEEP SETEADA: ['5','GI']input: 'None
+PEEP SETEADA: ['7','GJ']input: 'None
+FiO2 SETEADA: ['1','GK']input: 'None
+FiO2 SETEADA: ['2','GL']input: 'None
+FiO2 SETEADA: ['3','GM']input: 'None
+FiO2 SETEADA: ['5','GN']input: 'None
+FiO2 SETEADA: ['7','GO']input: 'None
+FR TOTAL: ['1','GP']input: 'None
+FR TOTAL: ['2','GQ']input: 'None
+FR TOTAL: ['3','GR']input: 'None
+FR TOTAL: ['5','GS']input: 'None
+FR TOTAL: ['7','GT']input: 'None
+VOLUMEN MINUTO: ['1','GU']input: 'None
+VOLUMEN MINUTO: ['2','GV']input: 'None
+VOLUMEN MINUTO: ['3','GW']input: 'None
+VOLUMEN MINUTO: ['5','GX']input: 'None
+VOLUMEN MINUTO: ['7','GY']input: 'None
+PRESIÓN PICO: ['1','GZ']input: 'None
+PRESIÓN PICO: ['2','HA']input: 'None
+PRESIÓN PICO: ['3','HB']input: 'None
+PRESIÓN PICO: ['5','HC']input: 'None
+PRESIÓN PICO: ['7','HD']input: 'None
+PRESIÓN PLATEAU: ['1','HE']input: 'None
+PRESIÓN PLATEAU: ['2','HF']input: 'None
+PRESIÓN PLATEAU: ['3','HG']input: 'None
+PRESIÓN PLATEAU: ['5','HH']input: 'None
+PRESIÓN PLATEAU: ['7','HI']input: 'None
+PEEP TOTAL: ['1','HJ']input: 'None
+PEEP TOTAL: ['2','HK']input: 'None
+PEEP TOTAL: ['3','HL']input: 'None
+PEEP TOTAL: ['5','HM']input: 'None
+PEEP TOTAL: ['7','HN']input: 'None
+DRIVING PRESSURE: ['1','HO']input: 'None
+DRIVING PRESSURE: ['2','HP']input: 'None
+DRIVING PRESSURE: ['3','HQ']input: 'None
+DRIVING PRESSURE: ['5','HR']input: 'None
+DRIVING PRESSURE: ['7','HS']input: 'None
+Vt (mL/Kg): ['1','HT']input: 'None
+Vt (mL/Kg): ['2','HU']input: 'None
+Vt (mL/Kg): ['3','HV']input: 'None
+Vt (mL/Kg): ['5','HW']input: 'None
+Vt (mL/Kg): ['7','HX']input: 'None
+COMPLIANCE: ['1','HY']input: 'None
+COMPLIANCE: ['2','HZ']input: 'None
+COMPLIANCE: ['3','IA']input: 'None
+COMPLIANCE: ['5','IB']input: 'None
+COMPLIANCE: ['7','IC']input: 'None
+RESISTENCIA: ['1','ID']input: 'None
+RESISTENCIA: ['2','IE']input: 'None
+RESISTENCIA: ['3','IF']input: 'None
+RESISTENCIA: ['5','IG']input: 'None
+RESISTENCIA: ['7','IH']input: 'None
+PRESIÓN MEDIA: ['1','II']input: 'None
+PRESIÓN MEDIA: ['2','IJ']input: 'None
+PRESIÓN MEDIA: ['3','IK']input: 'None
+PRESIÓN MEDIA: ['5','IL']input: 'None
+PRESIÓN MEDIA: ['7','IM']input: 'None
+MECHANICAL POWER: ['1','IN']input: 'None
+MECHANICAL POWER: ['2','IO']input: 'None
+MECHANICAL POWER: ['3','IP']input: 'None
+MECHANICAL POWER: ['5','IQ']input: 'None
+MECHANICAL POWER: ['7','IR']input: 'None
+MECHANICAL POWER / Crs: ['1','IS']input: 'None
+MECHANICAL POWER / Crs: ['2','IT']input: 'None
+MECHANICAL POWER / Crs: ['3','IU']input: 'None
+MECHANICAL POWER / Crs: ['5','IV']input: 'None
+MECHANICAL POWER / Crs: ['7','IW']input: 'None
+MECHANICAL POWER / Pp: ['1','IX']input: 'None
+MECHANICAL POWER / Pp: ['2','IY']input: 'None
+MECHANICAL POWER / Pp: ['3','IZ']input: 'None
+MECHANICAL POWER / Pp: ['5','JA']input: 'None
+MECHANICAL POWER / Pp: ['7','JB']input: 'None
+ΔP/FR: ['1','JC']input: 'None
+ΔP/FR: ['2','JD']input: 'None
+ΔP/FR: ['3','JE']input: 'None
+ΔP/FR: ['5','JF']input: 'None
+ΔP/FR: ['7','JG']input: 'None
+VENTILATORY RATIO: ['1','JH']input: 'None
+VENTILATORY RATIO: ['2','JI']input: 'None
+VENTILATORY RATIO: ['3','JJ']input: 'None
+VENTILATORY RATIO: ['5','JK']input: 'None
+VENTILATORY RATIO: ['7','JL']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['1','JM']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['2','JN']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['3','JO']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['5','JP']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['7','JQ']input: 'None
+P0.1: ['1','JR']input: 'None
+P0.1: ['2','JS']input: 'None
+P0.1: ['3','JT']input: 'None
+P0.1: ['5','JU']input: 'None
+P0.1: ['7','JV']input: 'None
+Pocc: ['1','JW']input: 'None
+Pocc: ['2','JX']input: 'None
+Pocc: ['3','JY']input: 'None
+Pocc: ['5','JZ']input: 'None
+Pocc: ['7','KA']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['1','KB']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['2','KC']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['3','KD']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['5','KE']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['7','KF']input: 'None
+pH: ['1','KG']input: 'None
+pH: ['2','KH']input: 'None
+pH: ['3','KI']input: 'None
+pH: ['5','KJ']input: 'None
+pH: ['7','KK']input: 'None
+PaO2: ['1','KL']input: 'None
+PaO2: ['2','KM']input: 'None
+PaO2: ['3','KN']input: 'None
+PaO2: ['5','KO']input: 'None
+PaO2: ['7','KP']input: 'None
+PaCO2: ['1','KQ']input: 'None
+PaCO2: ['2','KR']input: 'None
+PaCO2: ['3','KS']input: 'None
+PaCO2: ['5','KT']input: 'None
+PaCO2: ['7','KU']input: 'None
+SaO2: ['1','KV']input: 'None
+SaO2: ['2','KW']input: 'None
+SaO2: ['3','KX']input: 'None
+SaO2: ['5','KY']input: 'None
+SaO2: ['7','KZ']input: 'None
+SpO2: ['1','LA']input: 'None
+SpO2: ['2','LB']input: 'None
+SpO2: ['3','LC']input: 'None
+SpO2: ['5','LD']input: 'None
+SpO2: ['7','LE']input: 'None
+PaFiO2: ['1','LF']input: 'None
+PaFiO2: ['2','LG']input: 'None
+PaFiO2: ['3','LH']input: 'None
+PaFiO2: ['5','LI']input: 'None
+PaFiO2: ['7','LJ']input: 'None
+DECUBITO : ['1','LK']input: 'None
+DECUBITO : ['2','LL']input: 'None
+DECUBITO : ['3','LM']input: 'None
+DECUBITO : ['5','LN']input: 'None
+DECUBITO : ['7','LO']input: 'None
+N pronos: ['None','LP']input: 'None
+N pronos: ['None','LQ']input: 'None

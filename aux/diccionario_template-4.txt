@@ -1,0 +1,1042 @@
+DATOS GENERALES: ['ID ','A']input: 'None
+DATOS GENERALES: ['Apellido y Nombre','B']input: 'None
+DATOS GENERALES: ['Edad ','C']input: 'None
+DATOS GENERALES: ['Género','D']input: 'None
+DATOS GENERALES: ['Altura (cm)','E']input: 'None
+DATOS GENERALES: ['Peso real (Kg)','F']input: 'None
+DATOS GENERALES: ['IMC','G']input: 'None
+DATOS GENERALES: ['Peso predicho','H']input: 'None
+DATOS GENERALES: ['Fecha de ingreso UTI','I']input: 'None
+DATOS GENERALES: ['Fecha de egreso UTI','J']input: 'None
+DATOS GENERALES: ['Condición egreso','K']input: 'None
+DATOS GENERALES: ['Destino egreso','L']input: 'None
+DATOS GENERALES: ['Fecha de ingreso Hosp','M']input: 'None
+DATOS GENERALES: ['LOS previo UTI','N']input: 'None
+DATOS GENERALES: ['LOS UTI','O']input: 'None
+DATOS GENERALES: ['LET','P']input: 'None
+DATOS GENERALES: ['SAPS II','Q']input: 'None
+DATOS GENERALES: ['% SAPS II','R']input: 'None
+DATOS GENERALES: ['APACHE II','S']input: 'None
+DATOS GENERALES: ['% APACHE II','T']input: 'None
+DATOS GENERALES: ['SOFA','U']input: 'None
+DATOS GENERALES: ['N° DISFUNCIONES SOFA','V']input: 'None
+DATOS GENERALES: ['CHARLSON','W']input: 'None
+DATOS GENERALES: ['Tipo de ingreso','X']input: 'None
+DATOS GENERALES: ['Diagnóstico de ingreso','Y']input: 'None
+ANTECEDENTES: ['HTA','Z']input: 'None
+ANTECEDENTES: ['IAM','AA']input: 'None
+ANTECEDENTES: ['IC','AB']input: 'None
+ANTECEDENTES: ['PCR','AC']input: 'None
+ANTECEDENTES: ['EPOC','AD']input: 'None
+ANTECEDENTES: ['TBQ','AE']input: 'None
+ANTECEDENTES: ['EX TBQ','AF']input: 'None
+ANTECEDENTES: ['ASMA','AG']input: 'None
+ANTECEDENTES: ['OCD','AH']input: 'None
+ANTECEDENTES: ['NMN','AI']input: 'None
+ANTECEDENTES: ['VMI PREVIA','AJ']input: 'None
+ANTECEDENTES: ['VNI DOMICILIARIA','AK']input: 'None
+ANTECEDENTES: ['ACV','AL']input: 'None
+ANTECEDENTES: ['TEC','AM']input: 'None
+ANTECEDENTES: ['ANEURISMA','AN']input: 'None
+ANTECEDENTES: ['ENF NEUROMUSC','AO']input: 'None
+ANTECEDENTES: ['DBT','AP']input: 'None
+ANTECEDENTES: ['OBESIDAD','AQ']input: 'None
+ANTECEDENTES: ['HIPOTIROIDISMO','AR']input: 'None
+ANTECEDENTES: ['HIPERTIROIDISMO','AS']input: 'None
+ANTECEDENTES: ['INSUF RENAL','AT']input: 'None
+ANTECEDENTES: ['POP','AU']input: 'None
+ANTECEDENTES: ['TBC','AV']input: 'None
+ANTECEDENTES: ['HIV','AW']input: 'None
+ANTECEDENTES: ['HEPATITIS','AX']input: 'None
+ANTECEDENTES: ['CHAGAS','AY']input: 'None
+ANTECEDENTES: ['CONSUMO DE SUSTANCIAS','AZ']input: 'None
+ANTECEDENTES: ['REUMATOLOGICOS','BA']input: 'None
+ANTECEDENTES: ['PSIQUIATRICOS','BB']input: 'None
+ANTECEDENTES: ['ONCOLOGICOS','BC']input: 'None
+ANTECEDENTES: ['OTROS','BD']input: 'None
+AVMi: ['Fecha IOT','BE']input: 'None
+AVMi: ['Inicio AVMi','BF']input: 'None
+AVMi: ['Fin AVMi','BG']input: 'None
+AVMi: ['Días AVMi','BH']input: 'None
+AVMi: ['Días de AVMi previo UTI','BI']input: 'None
+AVMi: ['Días de TOT','BJ']input: 'None
+AVMi: ['Motivo AVMi','BK']input: 'None
+AVMi: ['Otro motivo','BL']input: 'None
+AVMi: ['Ingresa ARM','BM']input: 'None
+AVMi: ['Transtubación','BN']input: 'None
+AVMi: ['Nº transtubación','BO']input: 'None
+AVMi: ['Días libres de VM al día 28','BP']input: 'None
+AVMi: ['Nuevo evento','BQ']input: 'None
+AVMi: ['Inicio nuevo evento','BR']input: 'None
+AVMi: ['Fin nuevo evento','BS']input: 'None
+WEANING: ['Fecha de inicio','BT']input: 'None
+WEANING: ['Método PVE','BU']input: 'None
+WEANING: ['Tiempo PVE','BV']input: 'None
+WEANING: ['Fecha EOT','BW']input: 'None
+WEANING: ['Tipo EOT','BX']input: 'None
+WEANING: ['Falla EOT','BY']input: 'None
+WEANING: ['Hs a la falla','BZ']input: 'None
+WEANING: ['ReIOT','CA']input: 'None
+WEANING: ['Motivo ReIOT','CB']input: 'None
+WEANING: ['Nº Fallas EOT','CC']input: 'None
+WEANING: ['Nº de PVE','CD']input: 'None
+WEANING: ['WIND','CE']input: 'None
+WEANING: ['BOLES','CF']input: 'None
+WEANING: ['Egresa dependiente VM','CG']input: 'None
+TRAQUEOSTOMÍA: ['Ingresa TQT','CH']input: 'None
+TRAQUEOSTOMÍA: ['Fecha TQT','CI']input: 'None
+TRAQUEOSTOMÍA: ['Tipo TQT','CJ']input: 'None
+TRAQUEOSTOMÍA: ['Cambio TQT','CK']input: 'None
+TRAQUEOSTOMÍA: ['Nº cambios TQT','CL']input: 'None
+TRAQUEOSTOMÍA: ['Decanulado','CM']input: 'None
+TRAQUEOSTOMÍA: ['Fecha decanulación','CN']input: 'None
+TRAQUEOSTOMÍA: ['Días de TQT','CO']input: 'None
+TRAQUEOSTOMÍA: ['Días de tubo a TQT','CP']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['CNAFO','CQ']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Motivo CNAFO','CR']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de inicio','CS']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de fin','CT']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Falla','CU']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Causa de falla','CV']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Días CNAFO','CW']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['VMNI','CX']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Motivo VMNI','CY']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de inicio','CZ']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Fecha de fin','DA']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Falla','DB']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Causa de falla','DC']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['Días VMNI','DD']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['CNAFO','DE']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Motivo','DF']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de inicio','DG']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de fin','DH']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Falla','DI']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['ReIOT Post CNAFO','DJ']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Días CNAFO','DK']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['VMNI','DL']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Motivo','DM']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de inicio','DN']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Fecha de fin','DO']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Falla','DP']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['ReIOT post VMNI','DQ']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['Días VMNI','DR']input: 'None
+COMPLICACIONES GENERALES: ['TEP','DS']input: 'None
+COMPLICACIONES GENERALES: ['IAM','DT']input: 'None
+COMPLICACIONES GENERALES: ['PCR','DU']input: 'None
+COMPLICACIONES GENERALES: ['SDRA','DV']input: 'None
+COMPLICACIONES GENERALES: ['BNMr','DW']input: 'None
+COMPLICACIONES GENERALES: ['PRONO','DX']input: 'None
+COMPLICACIONES GENERALES: ['DAUCI','DY']input: 'None
+COMPLICACIONES GENERALES: ['BAROTRAUMA','DZ']input: 'None
+COMPLICACIONES GENERALES: ['FMO','EA']input: 'None
+COMPLICACIONES GENERALES: ['EOT NO PROGRAMADA','EB']input: 'None
+COMPLICACIONES GENERALES: ['DELIRIUM','EC']input: 'None
+COMPLICACIONES GENERALES: ['PaFiO2 <200','ED']input: 'None
+COMPLICACIONES GENERALES: ['SHOCK/SEPSIS','EE']input: 'None
+COMPLICACIONES GENERALES: ['I. RENAL','EF']input: 'None
+COMPLICACIONES GENERALES: ['NAVM','EG']input: 'None
+COMPLICACIONES GENERALES: ['LESIONES FACIALES','EH']input: 'None
+COMPLICACIONES GENERALES: ['CAMBIO DE INTERFAZ POR DISCONFORT','EI']input: 'None
+COMPLICACIONES GENERALES: ['Nº de Complicac','EJ']input: 'None
+DROGAS: ['SEDANTES','EK']input: 'None
+DROGAS: ['MDZ','EL']input: 'None
+DROGAS: ['PROPO','EM']input: 'None
+DROGAS: ['DEXMEDETO','EN']input: 'None
+DROGAS: ['MDZ/PROPO','EO']input: 'None
+DROGAS: ['KETAMINA','EP']input: 'None
+DROGAS: ['OTRO SEDANTE','EQ']input: 'None
+DROGAS: ['ANALGESIA','ER']input: 'None
+DROGAS: ['FNT','ES']input: 'None
+DROGAS: ['MORFINA','ET']input: 'None
+DROGAS: ['REMIFNT','EU']input: 'None
+DROGAS: ['DOLOFRIX','EV']input: 'None
+DROGAS: ['AINES','EW']input: 'None
+DROGAS: ['OTROS ANALGÉSICOS','EX']input: 'None
+DROGAS: ['INOTRÓPICOS','EY']input: 'None
+DROGAS: ['NORA','EZ']input: 'None
+DROGAS: ['VASOPRESINA','FA']input: 'None
+DROGAS: ['DOPA','FB']input: 'None
+DROGAS: ['NORA/VASO','FC']input: 'None
+DROGAS: ['DOBUTA','FD']input: 'None
+DROGAS: ['MILRI','FE']input: 'None
+DROGAS: ['OTROS INOTRÓPICOS','FF']input: 'None
+DROGAS: ['ANTIPSICÓTICOS','FG']input: 'None
+DROGAS: ['QTP','FH']input: 'None
+DROGAS: ['HLP','FI']input: 'None
+DROGAS: ['QTP/HLP','FJ']input: 'None
+DROGAS: ['BNM','FK']input: 'None
+DROGAS: ['ATRA','FL']input: 'None
+DROGAS: ['ROCURONIO','FM']input: 'None
+DELIRIUM: ['POSITIVO','FN']input: 'None
+DELIRIUM: ['NEGATIVO','FO']input: 'None
+DELIRIUM: ['N/E','FP']input: 'None
+MODO VENTILATORIO (DÍAS): ['1','FQ']input: 'None
+MODO VENTILATORIO (DÍAS): ['2','FR']input: 'None
+MODO VENTILATORIO (DÍAS): ['3','FS']input: 'None
+MODO VENTILATORIO (DÍAS): ['4','FT']input: 'None
+MODO VENTILATORIO (DÍAS): ['5','FU']input: 'None
+MODO VENTILATORIO (DÍAS): ['6','FV']input: 'None
+MODO VENTILATORIO (DÍAS): ['7','FW']input: 'None
+MODO VENTILATORIO (DÍAS): ['8','FX']input: 'None
+MODO VENTILATORIO (DÍAS): ['9','FY']input: 'None
+MODO VENTILATORIO (DÍAS): ['10','FZ']input: 'None
+MODO VENTILATORIO (DÍAS): ['11','GA']input: 'None
+MODO VENTILATORIO (DÍAS): ['12','GB']input: 'None
+MODO VENTILATORIO (DÍAS): ['13','GC']input: 'None
+MODO VENTILATORIO (DÍAS): ['14','GD']input: 'None
+MODO VENTILATORIO (DÍAS): ['15','GE']input: 'None
+MODO VENTILATORIO (DÍAS): ['16','GF']input: 'None
+MODO VENTILATORIO (DÍAS): ['17','GG']input: 'None
+MODO VENTILATORIO (DÍAS): ['18','GH']input: 'None
+MODO VENTILATORIO (DÍAS): ['19','GI']input: 'None
+MODO VENTILATORIO (DÍAS): ['20','GJ']input: 'None
+MODO VENTILATORIO (DÍAS): ['21','GK']input: 'None
+MODO VENTILATORIO (DÍAS): ['22','GL']input: 'None
+MODO VENTILATORIO (DÍAS): ['23','GM']input: 'None
+MODO VENTILATORIO (DÍAS): ['24','GN']input: 'None
+MODO VENTILATORIO (DÍAS): ['25','GO']input: 'None
+MODO VENTILATORIO (DÍAS): ['26','GP']input: 'None
+MODO VENTILATORIO (DÍAS): ['27','GQ']input: 'None
+MODO VENTILATORIO (DÍAS): ['28','GR']input: 'None
+Vt/Pi SETEADA (DÍAS): ['1','GS']input: 'None
+Vt/Pi SETEADA (DÍAS): ['2','GT']input: 'None
+Vt/Pi SETEADA (DÍAS): ['3','GU']input: 'None
+Vt/Pi SETEADA (DÍAS): ['4','GV']input: 'None
+Vt/Pi SETEADA (DÍAS): ['5','GW']input: 'None
+Vt/Pi SETEADA (DÍAS): ['6','GX']input: 'None
+Vt/Pi SETEADA (DÍAS): ['7','GY']input: 'None
+Vt/Pi SETEADA (DÍAS): ['8','GZ']input: 'None
+Vt/Pi SETEADA (DÍAS): ['9','HA']input: 'None
+Vt/Pi SETEADA (DÍAS): ['10','HB']input: 'None
+Vt/Pi SETEADA (DÍAS): ['11','HC']input: 'None
+Vt/Pi SETEADA (DÍAS): ['12','HD']input: 'None
+Vt/Pi SETEADA (DÍAS): ['13','HE']input: 'None
+Vt/Pi SETEADA (DÍAS): ['14','HF']input: 'None
+Vt/Pi SETEADA (DÍAS): ['15','HG']input: 'None
+Vt/Pi SETEADA (DÍAS): ['16','HH']input: 'None
+Vt/Pi SETEADA (DÍAS): ['17','HI']input: 'None
+Vt/Pi SETEADA (DÍAS): ['18','HJ']input: 'None
+Vt/Pi SETEADA (DÍAS): ['19','HK']input: 'None
+Vt/Pi SETEADA (DÍAS): ['20','HL']input: 'None
+Vt/Pi SETEADA (DÍAS): ['21','HM']input: 'None
+Vt/Pi SETEADA (DÍAS): ['22','HN']input: 'None
+Vt/Pi SETEADA (DÍAS): ['23','HO']input: 'None
+Vt/Pi SETEADA (DÍAS): ['24','HP']input: 'None
+Vt/Pi SETEADA (DÍAS): ['25','HQ']input: 'None
+Vt/Pi SETEADA (DÍAS): ['26','HR']input: 'None
+Vt/Pi SETEADA (DÍAS): ['27','HS']input: 'None
+Vt/Pi SETEADA (DÍAS): ['28','HT']input: 'None
+FR SETEADA: ['1','HU']input: 'None
+FR SETEADA: ['2','HV']input: 'None
+FR SETEADA: ['3','HW']input: 'None
+FR SETEADA: ['4','HX']input: 'None
+FR SETEADA: ['5','HY']input: 'None
+FR SETEADA: ['6','HZ']input: 'None
+FR SETEADA: ['7','IA']input: 'None
+FR SETEADA: ['8','IB']input: 'None
+FR SETEADA: ['9','IC']input: 'None
+FR SETEADA: ['10','ID']input: 'None
+FR SETEADA: ['11','IE']input: 'None
+FR SETEADA: ['12','IF']input: 'None
+FR SETEADA: ['13','IG']input: 'None
+FR SETEADA: ['14','IH']input: 'None
+FR SETEADA: ['15','II']input: 'None
+FR SETEADA: ['16','IJ']input: 'None
+FR SETEADA: ['17','IK']input: 'None
+FR SETEADA: ['18','IL']input: 'None
+FR SETEADA: ['19','IM']input: 'None
+FR SETEADA: ['20','IN']input: 'None
+FR SETEADA: ['21','IO']input: 'None
+FR SETEADA: ['22','IP']input: 'None
+FR SETEADA: ['23','IQ']input: 'None
+FR SETEADA: ['24','IR']input: 'None
+FR SETEADA: ['25','IS']input: 'None
+FR SETEADA: ['26','IT']input: 'None
+FR SETEADA: ['27','IU']input: 'None
+FR SETEADA: ['28','IV']input: 'None
+PEEP SETEADA: ['1','IW']input: 'None
+PEEP SETEADA: ['2','IX']input: 'None
+PEEP SETEADA: ['3','IY']input: 'None
+PEEP SETEADA: ['4','IZ']input: 'None
+PEEP SETEADA: ['5','JA']input: 'None
+PEEP SETEADA: ['6','JB']input: 'None
+PEEP SETEADA: ['7','JC']input: 'None
+PEEP SETEADA: ['8','JD']input: 'None
+PEEP SETEADA: ['9','JE']input: 'None
+PEEP SETEADA: ['10','JF']input: 'None
+PEEP SETEADA: ['11','JG']input: 'None
+PEEP SETEADA: ['12','JH']input: 'None
+PEEP SETEADA: ['13','JI']input: 'None
+PEEP SETEADA: ['14','JJ']input: 'None
+PEEP SETEADA: ['15','JK']input: 'None
+PEEP SETEADA: ['16','JL']input: 'None
+PEEP SETEADA: ['17','JM']input: 'None
+PEEP SETEADA: ['18','JN']input: 'None
+PEEP SETEADA: ['19','JO']input: 'None
+PEEP SETEADA: ['20','JP']input: 'None
+PEEP SETEADA: ['21','JQ']input: 'None
+PEEP SETEADA: ['22','JR']input: 'None
+PEEP SETEADA: ['23','JS']input: 'None
+PEEP SETEADA: ['24','JT']input: 'None
+PEEP SETEADA: ['25','JU']input: 'None
+PEEP SETEADA: ['26','JV']input: 'None
+PEEP SETEADA: ['27','JW']input: 'None
+PEEP SETEADA: ['28','JX']input: 'None
+FiO2 SETEADA: ['1','JY']input: 'None
+FiO2 SETEADA: ['2','JZ']input: 'None
+FiO2 SETEADA: ['3','KA']input: 'None
+FiO2 SETEADA: ['4','KB']input: 'None
+FiO2 SETEADA: ['5','KC']input: 'None
+FiO2 SETEADA: ['6','KD']input: 'None
+FiO2 SETEADA: ['7','KE']input: 'None
+FiO2 SETEADA: ['8','KF']input: 'None
+FiO2 SETEADA: ['9','KG']input: 'None
+FiO2 SETEADA: ['10','KH']input: 'None
+FiO2 SETEADA: ['11','KI']input: 'None
+FiO2 SETEADA: ['12','KJ']input: 'None
+FiO2 SETEADA: ['13','KK']input: 'None
+FiO2 SETEADA: ['14','KL']input: 'None
+FiO2 SETEADA: ['15','KM']input: 'None
+FiO2 SETEADA: ['16','KN']input: 'None
+FiO2 SETEADA: ['17','KO']input: 'None
+FiO2 SETEADA: ['18','KP']input: 'None
+FiO2 SETEADA: ['19','KQ']input: 'None
+FiO2 SETEADA: ['20','KR']input: 'None
+FiO2 SETEADA: ['21','KS']input: 'None
+FiO2 SETEADA: ['22','KT']input: 'None
+FiO2 SETEADA: ['23','KU']input: 'None
+FiO2 SETEADA: ['24','KV']input: 'None
+FiO2 SETEADA: ['25','KW']input: 'None
+FiO2 SETEADA: ['26','KX']input: 'None
+FiO2 SETEADA: ['27','KY']input: 'None
+FiO2 SETEADA: ['28','KZ']input: 'None
+FR TOTAL: ['1','LA']input: 'None
+FR TOTAL: ['2','LB']input: 'None
+FR TOTAL: ['3','LC']input: 'None
+FR TOTAL: ['4','LD']input: 'None
+FR TOTAL: ['5','LE']input: 'None
+FR TOTAL: ['6','LF']input: 'None
+FR TOTAL: ['7','LG']input: 'None
+FR TOTAL: ['8','LH']input: 'None
+FR TOTAL: ['9','LI']input: 'None
+FR TOTAL: ['10','LJ']input: 'None
+FR TOTAL: ['11','LK']input: 'None
+FR TOTAL: ['12','LL']input: 'None
+FR TOTAL: ['13','LM']input: 'None
+FR TOTAL: ['14','LN']input: 'None
+FR TOTAL: ['15','LO']input: 'None
+FR TOTAL: ['16','LP']input: 'None
+FR TOTAL: ['17','LQ']input: 'None
+FR TOTAL: ['18','LR']input: 'None
+FR TOTAL: ['19','LS']input: 'None
+FR TOTAL: ['20','LT']input: 'None
+FR TOTAL: ['21','LU']input: 'None
+FR TOTAL: ['22','LV']input: 'None
+FR TOTAL: ['23','LW']input: 'None
+FR TOTAL: ['24','LX']input: 'None
+FR TOTAL: ['25','LY']input: 'None
+FR TOTAL: ['26','LZ']input: 'None
+FR TOTAL: ['27','MA']input: 'None
+FR TOTAL: ['28','MB']input: 'None
+VOLUMEN MINUTO: ['1','MC']input: 'None
+VOLUMEN MINUTO: ['2','MD']input: 'None
+VOLUMEN MINUTO: ['3','ME']input: 'None
+VOLUMEN MINUTO: ['4','MF']input: 'None
+VOLUMEN MINUTO: ['5','MG']input: 'None
+VOLUMEN MINUTO: ['6','MH']input: 'None
+VOLUMEN MINUTO: ['7','MI']input: 'None
+VOLUMEN MINUTO: ['8','MJ']input: 'None
+VOLUMEN MINUTO: ['9','MK']input: 'None
+VOLUMEN MINUTO: ['10','ML']input: 'None
+VOLUMEN MINUTO: ['11','MM']input: 'None
+VOLUMEN MINUTO: ['12','MN']input: 'None
+VOLUMEN MINUTO: ['13','MO']input: 'None
+VOLUMEN MINUTO: ['14','MP']input: 'None
+VOLUMEN MINUTO: ['15','MQ']input: 'None
+VOLUMEN MINUTO: ['16','MR']input: 'None
+VOLUMEN MINUTO: ['17','MS']input: 'None
+VOLUMEN MINUTO: ['18','MT']input: 'None
+VOLUMEN MINUTO: ['19','MU']input: 'None
+VOLUMEN MINUTO: ['20','MV']input: 'None
+VOLUMEN MINUTO: ['21','MW']input: 'None
+VOLUMEN MINUTO: ['22','MX']input: 'None
+VOLUMEN MINUTO: ['23','MY']input: 'None
+VOLUMEN MINUTO: ['24','MZ']input: 'None
+VOLUMEN MINUTO: ['25','NA']input: 'None
+VOLUMEN MINUTO: ['26','NB']input: 'None
+VOLUMEN MINUTO: ['27','NC']input: 'None
+VOLUMEN MINUTO: ['28','ND']input: 'None
+PRESIÓN PICO: ['1','NE']input: 'None
+PRESIÓN PICO: ['2','NF']input: 'None
+PRESIÓN PICO: ['3','NG']input: 'None
+PRESIÓN PICO: ['4','NH']input: 'None
+PRESIÓN PICO: ['5','NI']input: 'None
+PRESIÓN PICO: ['6','NJ']input: 'None
+PRESIÓN PICO: ['7','NK']input: 'None
+PRESIÓN PICO: ['8','NL']input: 'None
+PRESIÓN PICO: ['9','NM']input: 'None
+PRESIÓN PICO: ['10','NN']input: 'None
+PRESIÓN PICO: ['11','NO']input: 'None
+PRESIÓN PICO: ['12','NP']input: 'None
+PRESIÓN PICO: ['13','NQ']input: 'None
+PRESIÓN PICO: ['14','NR']input: 'None
+PRESIÓN PICO: ['15','NS']input: 'None
+PRESIÓN PICO: ['16','NT']input: 'None
+PRESIÓN PICO: ['17','NU']input: 'None
+PRESIÓN PICO: ['18','NV']input: 'None
+PRESIÓN PICO: ['19','NW']input: 'None
+PRESIÓN PICO: ['20','NX']input: 'None
+PRESIÓN PICO: ['21','NY']input: 'None
+PRESIÓN PICO: ['22','NZ']input: 'None
+PRESIÓN PICO: ['23','OA']input: 'None
+PRESIÓN PICO: ['24','OB']input: 'None
+PRESIÓN PICO: ['25','OC']input: 'None
+PRESIÓN PICO: ['26','OD']input: 'None
+PRESIÓN PICO: ['27','OE']input: 'None
+PRESIÓN PICO: ['28','OF']input: 'None
+PRESIÓN PLATEAU: ['1','OG']input: 'None
+PRESIÓN PLATEAU: ['2','OH']input: 'None
+PRESIÓN PLATEAU: ['3','OI']input: 'None
+PRESIÓN PLATEAU: ['4','OJ']input: 'None
+PRESIÓN PLATEAU: ['5','OK']input: 'None
+PRESIÓN PLATEAU: ['6','OL']input: 'None
+PRESIÓN PLATEAU: ['7','OM']input: 'None
+PRESIÓN PLATEAU: ['8','ON']input: 'None
+PRESIÓN PLATEAU: ['9','OO']input: 'None
+PRESIÓN PLATEAU: ['10','OP']input: 'None
+PRESIÓN PLATEAU: ['11','OQ']input: 'None
+PRESIÓN PLATEAU: ['12','OR']input: 'None
+PRESIÓN PLATEAU: ['13','OS']input: 'None
+PRESIÓN PLATEAU: ['14','OT']input: 'None
+PRESIÓN PLATEAU: ['15','OU']input: 'None
+PRESIÓN PLATEAU: ['16','OV']input: 'None
+PRESIÓN PLATEAU: ['17','OW']input: 'None
+PRESIÓN PLATEAU: ['18','OX']input: 'None
+PRESIÓN PLATEAU: ['19','OY']input: 'None
+PRESIÓN PLATEAU: ['20','OZ']input: 'None
+PRESIÓN PLATEAU: ['21','PA']input: 'None
+PRESIÓN PLATEAU: ['22','PB']input: 'None
+PRESIÓN PLATEAU: ['23','PC']input: 'None
+PRESIÓN PLATEAU: ['24','PD']input: 'None
+PRESIÓN PLATEAU: ['25','PE']input: 'None
+PRESIÓN PLATEAU: ['26','PF']input: 'None
+PRESIÓN PLATEAU: ['27','PG']input: 'None
+PRESIÓN PLATEAU: ['28','PH']input: 'None
+PEEP TOTAL: ['1','PI']input: 'None
+PEEP TOTAL: ['2','PJ']input: 'None
+PEEP TOTAL: ['3','PK']input: 'None
+PEEP TOTAL: ['4','PL']input: 'None
+PEEP TOTAL: ['5','PM']input: 'None
+PEEP TOTAL: ['6','PN']input: 'None
+PEEP TOTAL: ['7','PO']input: 'None
+PEEP TOTAL: ['8','PP']input: 'None
+PEEP TOTAL: ['9','PQ']input: 'None
+PEEP TOTAL: ['10','PR']input: 'None
+PEEP TOTAL: ['11','PS']input: 'None
+PEEP TOTAL: ['12','PT']input: 'None
+PEEP TOTAL: ['13','PU']input: 'None
+PEEP TOTAL: ['14','PV']input: 'None
+PEEP TOTAL: ['15','PW']input: 'None
+PEEP TOTAL: ['16','PX']input: 'None
+PEEP TOTAL: ['17','PY']input: 'None
+PEEP TOTAL: ['18','PZ']input: 'None
+PEEP TOTAL: ['19','QA']input: 'None
+PEEP TOTAL: ['20','QB']input: 'None
+PEEP TOTAL: ['21','QC']input: 'None
+PEEP TOTAL: ['22','QD']input: 'None
+PEEP TOTAL: ['23','QE']input: 'None
+PEEP TOTAL: ['24','QF']input: 'None
+PEEP TOTAL: ['25','QG']input: 'None
+PEEP TOTAL: ['26','QH']input: 'None
+PEEP TOTAL: ['27','QI']input: 'None
+PEEP TOTAL: ['28','QJ']input: 'None
+DRIVING PRESSURE: ['1','QK']input: 'None
+DRIVING PRESSURE: ['2','QL']input: 'None
+DRIVING PRESSURE: ['3','QM']input: 'None
+DRIVING PRESSURE: ['4','QN']input: 'None
+DRIVING PRESSURE: ['5','QO']input: 'None
+DRIVING PRESSURE: ['6','QP']input: 'None
+DRIVING PRESSURE: ['7','QQ']input: 'None
+DRIVING PRESSURE: ['8','QR']input: 'None
+DRIVING PRESSURE: ['9','QS']input: 'None
+DRIVING PRESSURE: ['10','QT']input: 'None
+DRIVING PRESSURE: ['11','QU']input: 'None
+DRIVING PRESSURE: ['12','QV']input: 'None
+DRIVING PRESSURE: ['13','QW']input: 'None
+DRIVING PRESSURE: ['14','QX']input: 'None
+DRIVING PRESSURE: ['15','QY']input: 'None
+DRIVING PRESSURE: ['16','QZ']input: 'None
+DRIVING PRESSURE: ['17','RA']input: 'None
+DRIVING PRESSURE: ['18','RB']input: 'None
+DRIVING PRESSURE: ['19','RC']input: 'None
+DRIVING PRESSURE: ['20','RD']input: 'None
+DRIVING PRESSURE: ['21','RE']input: 'None
+DRIVING PRESSURE: ['22','RF']input: 'None
+DRIVING PRESSURE: ['23','RG']input: 'None
+DRIVING PRESSURE: ['24','RH']input: 'None
+DRIVING PRESSURE: ['25','RI']input: 'None
+DRIVING PRESSURE: ['26','RJ']input: 'None
+DRIVING PRESSURE: ['27','RK']input: 'None
+DRIVING PRESSURE: ['28','RL']input: 'None
+Vt (mL/Kg): ['1','RM']input: 'None
+Vt (mL/Kg): ['2','RN']input: 'None
+Vt (mL/Kg): ['3','RO']input: 'None
+Vt (mL/Kg): ['4','RP']input: 'None
+Vt (mL/Kg): ['5','RQ']input: 'None
+Vt (mL/Kg): ['6','RR']input: 'None
+Vt (mL/Kg): ['7','RS']input: 'None
+Vt (mL/Kg): ['8','RT']input: 'None
+Vt (mL/Kg): ['9','RU']input: 'None
+Vt (mL/Kg): ['10','RV']input: 'None
+Vt (mL/Kg): ['11','RW']input: 'None
+Vt (mL/Kg): ['12','RX']input: 'None
+Vt (mL/Kg): ['13','RY']input: 'None
+Vt (mL/Kg): ['14','RZ']input: 'None
+Vt (mL/Kg): ['15','SA']input: 'None
+Vt (mL/Kg): ['16','SB']input: 'None
+Vt (mL/Kg): ['17','SC']input: 'None
+Vt (mL/Kg): ['18','SD']input: 'None
+Vt (mL/Kg): ['19','SE']input: 'None
+Vt (mL/Kg): ['20','SF']input: 'None
+Vt (mL/Kg): ['21','SG']input: 'None
+Vt (mL/Kg): ['22','SH']input: 'None
+Vt (mL/Kg): ['23','SI']input: 'None
+Vt (mL/Kg): ['24','SJ']input: 'None
+Vt (mL/Kg): ['25','SK']input: 'None
+Vt (mL/Kg): ['26','SL']input: 'None
+Vt (mL/Kg): ['27','SM']input: 'None
+Vt (mL/Kg): ['28','SN']input: 'None
+COMPLIANCE: ['1','SO']input: 'None
+COMPLIANCE: ['2','SP']input: 'None
+COMPLIANCE: ['3','SQ']input: 'None
+COMPLIANCE: ['4','SR']input: 'None
+COMPLIANCE: ['5','SS']input: 'None
+COMPLIANCE: ['6','ST']input: 'None
+COMPLIANCE: ['7','SU']input: 'None
+COMPLIANCE: ['8','SV']input: 'None
+COMPLIANCE: ['9','SW']input: 'None
+COMPLIANCE: ['10','SX']input: 'None
+COMPLIANCE: ['11','SY']input: 'None
+COMPLIANCE: ['12','SZ']input: 'None
+COMPLIANCE: ['13','TA']input: 'None
+COMPLIANCE: ['14','TB']input: 'None
+COMPLIANCE: ['15','TC']input: 'None
+COMPLIANCE: ['16','TD']input: 'None
+COMPLIANCE: ['17','TE']input: 'None
+COMPLIANCE: ['18','TF']input: 'None
+COMPLIANCE: ['19','TG']input: 'None
+COMPLIANCE: ['20','TH']input: 'None
+COMPLIANCE: ['21','TI']input: 'None
+COMPLIANCE: ['22','TJ']input: 'None
+COMPLIANCE: ['23','TK']input: 'None
+COMPLIANCE: ['24','TL']input: 'None
+COMPLIANCE: ['25','TM']input: 'None
+COMPLIANCE: ['26','TN']input: 'None
+COMPLIANCE: ['27','TO']input: 'None
+COMPLIANCE: ['28','TP']input: 'None
+RESISTENCIA: ['1','TQ']input: 'None
+RESISTENCIA: ['2','TR']input: 'None
+RESISTENCIA: ['3','TS']input: 'None
+RESISTENCIA: ['4','TT']input: 'None
+RESISTENCIA: ['5','TU']input: 'None
+RESISTENCIA: ['6','TV']input: 'None
+RESISTENCIA: ['7','TW']input: 'None
+RESISTENCIA: ['8','TX']input: 'None
+RESISTENCIA: ['9','TY']input: 'None
+RESISTENCIA: ['10','TZ']input: 'None
+RESISTENCIA: ['11','UA']input: 'None
+RESISTENCIA: ['12','UB']input: 'None
+RESISTENCIA: ['13','UC']input: 'None
+RESISTENCIA: ['14','UD']input: 'None
+RESISTENCIA: ['15','UE']input: 'None
+RESISTENCIA: ['16','UF']input: 'None
+RESISTENCIA: ['17','UG']input: 'None
+RESISTENCIA: ['18','UH']input: 'None
+RESISTENCIA: ['19','UI']input: 'None
+RESISTENCIA: ['20','UJ']input: 'None
+RESISTENCIA: ['21','UK']input: 'None
+RESISTENCIA: ['22','UL']input: 'None
+RESISTENCIA: ['23','UM']input: 'None
+RESISTENCIA: ['24','UN']input: 'None
+RESISTENCIA: ['25','UO']input: 'None
+RESISTENCIA: ['26','UP']input: 'None
+RESISTENCIA: ['27','UQ']input: 'None
+RESISTENCIA: ['28','UR']input: 'None
+PRESIÓN MEDIA: ['1','US']input: 'None
+PRESIÓN MEDIA: ['2','UT']input: 'None
+PRESIÓN MEDIA: ['3','UU']input: 'None
+PRESIÓN MEDIA: ['4','UV']input: 'None
+PRESIÓN MEDIA: ['5','UW']input: 'None
+PRESIÓN MEDIA: ['6','UX']input: 'None
+PRESIÓN MEDIA: ['7','UY']input: 'None
+PRESIÓN MEDIA: ['8','UZ']input: 'None
+PRESIÓN MEDIA: ['9','VA']input: 'None
+PRESIÓN MEDIA: ['10','VB']input: 'None
+PRESIÓN MEDIA: ['11','VC']input: 'None
+PRESIÓN MEDIA: ['12','VD']input: 'None
+PRESIÓN MEDIA: ['13','VE']input: 'None
+PRESIÓN MEDIA: ['14','VF']input: 'None
+PRESIÓN MEDIA: ['15','VG']input: 'None
+PRESIÓN MEDIA: ['16','VH']input: 'None
+PRESIÓN MEDIA: ['17','VI']input: 'None
+PRESIÓN MEDIA: ['18','VJ']input: 'None
+PRESIÓN MEDIA: ['19','VK']input: 'None
+PRESIÓN MEDIA: ['20','VL']input: 'None
+PRESIÓN MEDIA: ['21','VM']input: 'None
+PRESIÓN MEDIA: ['22','VN']input: 'None
+PRESIÓN MEDIA: ['23','VO']input: 'None
+PRESIÓN MEDIA: ['24','VP']input: 'None
+PRESIÓN MEDIA: ['25','VQ']input: 'None
+PRESIÓN MEDIA: ['26','VR']input: 'None
+PRESIÓN MEDIA: ['27','VS']input: 'None
+PRESIÓN MEDIA: ['28','VT']input: 'None
+MECHANICAL POWER: ['1','VU']input: 'None
+MECHANICAL POWER: ['2','VV']input: 'None
+MECHANICAL POWER: ['3','VW']input: 'None
+MECHANICAL POWER: ['4','VX']input: 'None
+MECHANICAL POWER: ['5','VY']input: 'None
+MECHANICAL POWER: ['6','VZ']input: 'None
+MECHANICAL POWER: ['7','WA']input: 'None
+MECHANICAL POWER: ['8','WB']input: 'None
+MECHANICAL POWER: ['9','WC']input: 'None
+MECHANICAL POWER: ['10','WD']input: 'None
+MECHANICAL POWER: ['11','WE']input: 'None
+MECHANICAL POWER: ['12','WF']input: 'None
+MECHANICAL POWER: ['13','WG']input: 'None
+MECHANICAL POWER: ['14','WH']input: 'None
+MECHANICAL POWER: ['15','WI']input: 'None
+MECHANICAL POWER: ['16','WJ']input: 'None
+MECHANICAL POWER: ['17','WK']input: 'None
+MECHANICAL POWER: ['18','WL']input: 'None
+MECHANICAL POWER: ['19','WM']input: 'None
+MECHANICAL POWER: ['20','WN']input: 'None
+MECHANICAL POWER: ['21','WO']input: 'None
+MECHANICAL POWER: ['22','WP']input: 'None
+MECHANICAL POWER: ['23','WQ']input: 'None
+MECHANICAL POWER: ['24','WR']input: 'None
+MECHANICAL POWER: ['25','WS']input: 'None
+MECHANICAL POWER: ['26','WT']input: 'None
+MECHANICAL POWER: ['27','WU']input: 'None
+MECHANICAL POWER: ['28','WV']input: 'None
+MECHANICAL POWER / Crs: ['1','WW']input: 'None
+MECHANICAL POWER / Crs: ['2','WX']input: 'None
+MECHANICAL POWER / Crs: ['3','WY']input: 'None
+MECHANICAL POWER / Crs: ['4','WZ']input: 'None
+MECHANICAL POWER / Crs: ['5','XA']input: 'None
+MECHANICAL POWER / Crs: ['6','XB']input: 'None
+MECHANICAL POWER / Crs: ['7','XC']input: 'None
+MECHANICAL POWER / Crs: ['8','XD']input: 'None
+MECHANICAL POWER / Crs: ['9','XE']input: 'None
+MECHANICAL POWER / Crs: ['10','XF']input: 'None
+MECHANICAL POWER / Crs: ['11','XG']input: 'None
+MECHANICAL POWER / Crs: ['12','XH']input: 'None
+MECHANICAL POWER / Crs: ['13','XI']input: 'None
+MECHANICAL POWER / Crs: ['14','XJ']input: 'None
+MECHANICAL POWER / Crs: ['15','XK']input: 'None
+MECHANICAL POWER / Crs: ['16','XL']input: 'None
+MECHANICAL POWER / Crs: ['17','XM']input: 'None
+MECHANICAL POWER / Crs: ['18','XN']input: 'None
+MECHANICAL POWER / Crs: ['19','XO']input: 'None
+MECHANICAL POWER / Crs: ['20','XP']input: 'None
+MECHANICAL POWER / Crs: ['21','XQ']input: 'None
+MECHANICAL POWER / Crs: ['22','XR']input: 'None
+MECHANICAL POWER / Crs: ['23','XS']input: 'None
+MECHANICAL POWER / Crs: ['24','XT']input: 'None
+MECHANICAL POWER / Crs: ['25','XU']input: 'None
+MECHANICAL POWER / Crs: ['26','XV']input: 'None
+MECHANICAL POWER / Crs: ['27','XW']input: 'None
+MECHANICAL POWER / Crs: ['28','XX']input: 'None
+MECHANICAL POWER / Pp: ['1','XY']input: 'None
+MECHANICAL POWER / Pp: ['2','XZ']input: 'None
+MECHANICAL POWER / Pp: ['3','YA']input: 'None
+MECHANICAL POWER / Pp: ['4','YB']input: 'None
+MECHANICAL POWER / Pp: ['5','YC']input: 'None
+MECHANICAL POWER / Pp: ['6','YD']input: 'None
+MECHANICAL POWER / Pp: ['7','YE']input: 'None
+MECHANICAL POWER / Pp: ['8','YF']input: 'None
+MECHANICAL POWER / Pp: ['9','YG']input: 'None
+MECHANICAL POWER / Pp: ['10','YH']input: 'None
+MECHANICAL POWER / Pp: ['11','YI']input: 'None
+MECHANICAL POWER / Pp: ['12','YJ']input: 'None
+MECHANICAL POWER / Pp: ['13','YK']input: 'None
+MECHANICAL POWER / Pp: ['14','YL']input: 'None
+MECHANICAL POWER / Pp: ['15','YM']input: 'None
+MECHANICAL POWER / Pp: ['16','YN']input: 'None
+MECHANICAL POWER / Pp: ['17','YO']input: 'None
+MECHANICAL POWER / Pp: ['18','YP']input: 'None
+MECHANICAL POWER / Pp: ['19','YQ']input: 'None
+MECHANICAL POWER / Pp: ['20','YR']input: 'None
+MECHANICAL POWER / Pp: ['21','YS']input: 'None
+MECHANICAL POWER / Pp: ['22','YT']input: 'None
+MECHANICAL POWER / Pp: ['23','YU']input: 'None
+MECHANICAL POWER / Pp: ['24','YV']input: 'None
+MECHANICAL POWER / Pp: ['25','YW']input: 'None
+MECHANICAL POWER / Pp: ['26','YX']input: 'None
+MECHANICAL POWER / Pp: ['27','YY']input: 'None
+MECHANICAL POWER / Pp: ['28','YZ']input: 'None
+ΔP/FR: ['1','ZA']input: 'None
+ΔP/FR: ['2','ZB']input: 'None
+ΔP/FR: ['3','ZC']input: 'None
+ΔP/FR: ['4','ZD']input: 'None
+ΔP/FR: ['5','ZE']input: 'None
+ΔP/FR: ['6','ZF']input: 'None
+ΔP/FR: ['7','ZG']input: 'None
+ΔP/FR: ['8','ZH']input: 'None
+ΔP/FR: ['9','ZI']input: 'None
+ΔP/FR: ['10','ZJ']input: 'None
+ΔP/FR: ['11','ZK']input: 'None
+ΔP/FR: ['12','ZL']input: 'None
+ΔP/FR: ['13','ZM']input: 'None
+ΔP/FR: ['14','ZN']input: 'None
+ΔP/FR: ['15','ZO']input: 'None
+ΔP/FR: ['16','ZP']input: 'None
+ΔP/FR: ['17','ZQ']input: 'None
+ΔP/FR: ['18','ZR']input: 'None
+ΔP/FR: ['19','ZS']input: 'None
+ΔP/FR: ['20','ZT']input: 'None
+ΔP/FR: ['21','ZU']input: 'None
+ΔP/FR: ['22','ZV']input: 'None
+ΔP/FR: ['23','ZW']input: 'None
+ΔP/FR: ['24','ZX']input: 'None
+ΔP/FR: ['25','ZY']input: 'None
+ΔP/FR: ['26','ZZ']input: 'None
+ΔP/FR: ['27','AAA']input: 'None
+ΔP/FR: ['28','AAB']input: 'None
+VENTILATORY RATIO: ['1','AAC']input: 'None
+VENTILATORY RATIO: ['2','AAD']input: 'None
+VENTILATORY RATIO: ['3','AAE']input: 'None
+VENTILATORY RATIO: ['4','AAF']input: 'None
+VENTILATORY RATIO: ['5','AAG']input: 'None
+VENTILATORY RATIO: ['6','AAH']input: 'None
+VENTILATORY RATIO: ['7','AAI']input: 'None
+VENTILATORY RATIO: ['8','AAJ']input: 'None
+VENTILATORY RATIO: ['9','AAK']input: 'None
+VENTILATORY RATIO: ['10','AAL']input: 'None
+VENTILATORY RATIO: ['11','AAM']input: 'None
+VENTILATORY RATIO: ['12','AAN']input: 'None
+VENTILATORY RATIO: ['13','AAO']input: 'None
+VENTILATORY RATIO: ['14','AAP']input: 'None
+VENTILATORY RATIO: ['15','AAQ']input: 'None
+VENTILATORY RATIO: ['16','AAR']input: 'None
+VENTILATORY RATIO: ['17','AAS']input: 'None
+VENTILATORY RATIO: ['18','AAT']input: 'None
+VENTILATORY RATIO: ['19','AAU']input: 'None
+VENTILATORY RATIO: ['20','AAV']input: 'None
+VENTILATORY RATIO: ['21','AAW']input: 'None
+VENTILATORY RATIO: ['22','AAX']input: 'None
+VENTILATORY RATIO: ['23','AAY']input: 'None
+VENTILATORY RATIO: ['24','AAZ']input: 'None
+VENTILATORY RATIO: ['25','ABA']input: 'None
+VENTILATORY RATIO: ['26','ABB']input: 'None
+VENTILATORY RATIO: ['27','ABC']input: 'None
+VENTILATORY RATIO: ['28','ABD']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['1','ABE']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['2','ABF']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['3','ABG']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['4','ABH']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['5','ABI']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['6','ABJ']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['7','ABK']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['8','ABL']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['9','ABM']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['10','ABN']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['11','ABO']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['12','ABP']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['13','ABQ']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['14','ABR']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['15','ABS']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['16','ABT']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['17','ABU']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['18','ABV']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['19','ABW']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['20','ABX']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['21','ABY']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['22','ABZ']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['23','ACA']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['24','ACB']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['25','ACC']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['26','ACD']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['27','ACE']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['28','ACF']input: 'None
+P0.1: ['1','ACG']input: 'None
+P0.1: ['2','ACH']input: 'None
+P0.1: ['3','ACI']input: 'None
+P0.1: ['4','ACJ']input: 'None
+P0.1: ['5','ACK']input: 'None
+P0.1: ['6','ACL']input: 'None
+P0.1: ['7','ACM']input: 'None
+P0.1: ['8','ACN']input: 'None
+P0.1: ['9','ACO']input: 'None
+P0.1: ['10','ACP']input: 'None
+P0.1: ['11','ACQ']input: 'None
+P0.1: ['12','ACR']input: 'None
+P0.1: ['13','ACS']input: 'None
+P0.1: ['14','ACT']input: 'None
+P0.1: ['15','ACU']input: 'None
+P0.1: ['16','ACV']input: 'None
+P0.1: ['17','ACW']input: 'None
+P0.1: ['18','ACX']input: 'None
+P0.1: ['19','ACY']input: 'None
+P0.1: ['20','ACZ']input: 'None
+P0.1: ['21','ADA']input: 'None
+P0.1: ['22','ADB']input: 'None
+P0.1: ['23','ADC']input: 'None
+P0.1: ['24','ADD']input: 'None
+P0.1: ['25','ADE']input: 'None
+P0.1: ['26','ADF']input: 'None
+P0.1: ['27','ADG']input: 'None
+P0.1: ['28','ADH']input: 'None
+Pocc: ['1','ADI']input: 'None
+Pocc: ['2','ADJ']input: 'None
+Pocc: ['3','ADK']input: 'None
+Pocc: ['4','ADL']input: 'None
+Pocc: ['5','ADM']input: 'None
+Pocc: ['6','ADN']input: 'None
+Pocc: ['7','ADO']input: 'None
+Pocc: ['8','ADP']input: 'None
+Pocc: ['9','ADQ']input: 'None
+Pocc: ['10','ADR']input: 'None
+Pocc: ['11','ADS']input: 'None
+Pocc: ['12','ADT']input: 'None
+Pocc: ['13','ADU']input: 'None
+Pocc: ['14','ADV']input: 'None
+Pocc: ['15','ADW']input: 'None
+Pocc: ['16','ADX']input: 'None
+Pocc: ['17','ADY']input: 'None
+Pocc: ['18','ADZ']input: 'None
+Pocc: ['19','AEA']input: 'None
+Pocc: ['20','AEB']input: 'None
+Pocc: ['21','AEC']input: 'None
+Pocc: ['22','AED']input: 'None
+Pocc: ['23','AEE']input: 'None
+Pocc: ['24','AEF']input: 'None
+Pocc: ['25','AEG']input: 'None
+Pocc: ['26','AEH']input: 'None
+Pocc: ['27','AEI']input: 'None
+Pocc: ['28','AEJ']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['1','AEK']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['2','AEL']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['3','AEM']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['4','AEN']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['5','AEO']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['6','AEP']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['7','AEQ']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['8','AER']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['9','AES']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['10','AET']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['11','AEU']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['12','AEV']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['13','AEW']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['14','AEX']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['15','AEY']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['16','AEZ']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['17','AFA']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['18','AFB']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['19','AFC']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['20','AFD']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['21','AFE']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['22','AFF']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['23','AFG']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['24','AFH']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['25','AFI']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['26','AFJ']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['27','AFK']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['28','AFL']input: 'None
+pH: ['1','AFM']input: 'None
+pH: ['2','AFN']input: 'None
+pH: ['3','AFO']input: 'None
+pH: ['4','AFP']input: 'None
+pH: ['5','AFQ']input: 'None
+pH: ['6','AFR']input: 'None
+pH: ['7','AFS']input: 'None
+pH: ['8','AFT']input: 'None
+pH: ['9','AFU']input: 'None
+pH: ['10','AFV']input: 'None
+pH: ['11','AFW']input: 'None
+pH: ['12','AFX']input: 'None
+pH: ['13','AFY']input: 'None
+pH: ['14','AFZ']input: 'None
+pH: ['15','AGA']input: 'None
+pH: ['16','AGB']input: 'None
+pH: ['17','AGC']input: 'None
+pH: ['18','AGD']input: 'None
+pH: ['19','AGE']input: 'None
+pH: ['20','AGF']input: 'None
+pH: ['21','AGG']input: 'None
+pH: ['22','AGH']input: 'None
+pH: ['23','AGI']input: 'None
+pH: ['24','AGJ']input: 'None
+pH: ['25','AGK']input: 'None
+pH: ['26','AGL']input: 'None
+pH: ['27','AGM']input: 'None
+pH: ['28','AGN']input: 'None
+PaO2: ['1','AGO']input: 'None
+PaO2: ['2','AGP']input: 'None
+PaO2: ['3','AGQ']input: 'None
+PaO2: ['4','AGR']input: 'None
+PaO2: ['5','AGS']input: 'None
+PaO2: ['6','AGT']input: 'None
+PaO2: ['7','AGU']input: 'None
+PaO2: ['8','AGV']input: 'None
+PaO2: ['9','AGW']input: 'None
+PaO2: ['10','AGX']input: 'None
+PaO2: ['11','AGY']input: 'None
+PaO2: ['12','AGZ']input: 'None
+PaO2: ['13','AHA']input: 'None
+PaO2: ['14','AHB']input: 'None
+PaO2: ['15','AHC']input: 'None
+PaO2: ['16','AHD']input: 'None
+PaO2: ['17','AHE']input: 'None
+PaO2: ['18','AHF']input: 'None
+PaO2: ['19','AHG']input: 'None
+PaO2: ['20','AHH']input: 'None
+PaO2: ['21','AHI']input: 'None
+PaO2: ['22','AHJ']input: 'None
+PaO2: ['23','AHK']input: 'None
+PaO2: ['24','AHL']input: 'None
+PaO2: ['25','AHM']input: 'None
+PaO2: ['26','AHN']input: 'None
+PaO2: ['27','AHO']input: 'None
+PaO2: ['28','AHP']input: 'None
+PaCO2: ['1','AHQ']input: 'None
+PaCO2: ['2','AHR']input: 'None
+PaCO2: ['3','AHS']input: 'None
+PaCO2: ['4','AHT']input: 'None
+PaCO2: ['5','AHU']input: 'None
+PaCO2: ['6','AHV']input: 'None
+PaCO2: ['7','AHW']input: 'None
+PaCO2: ['8','AHX']input: 'None
+PaCO2: ['9','AHY']input: 'None
+PaCO2: ['10','AHZ']input: 'None
+PaCO2: ['11','AIA']input: 'None
+PaCO2: ['12','AIB']input: 'None
+PaCO2: ['13','AIC']input: 'None
+PaCO2: ['14','AID']input: 'None
+PaCO2: ['15','AIE']input: 'None
+PaCO2: ['16','AIF']input: 'None
+PaCO2: ['17','AIG']input: 'None
+PaCO2: ['18','AIH']input: 'None
+PaCO2: ['19','AII']input: 'None
+PaCO2: ['20','AIJ']input: 'None
+PaCO2: ['21','AIK']input: 'None
+PaCO2: ['22','AIL']input: 'None
+PaCO2: ['23','AIM']input: 'None
+PaCO2: ['24','AIN']input: 'None
+PaCO2: ['25','AIO']input: 'None
+PaCO2: ['26','AIP']input: 'None
+PaCO2: ['27','AIQ']input: 'None
+PaCO2: ['28','AIR']input: 'None
+SaO2: ['1','AIS']input: 'None
+SaO2: ['2','AIT']input: 'None
+SaO2: ['3','AIU']input: 'None
+SaO2: ['4','AIV']input: 'None
+SaO2: ['5','AIW']input: 'None
+SaO2: ['6','AIX']input: 'None
+SaO2: ['7','AIY']input: 'None
+SaO2: ['8','AIZ']input: 'None
+SaO2: ['9','AJA']input: 'None
+SaO2: ['10','AJB']input: 'None
+SaO2: ['11','AJC']input: 'None
+SaO2: ['12','AJD']input: 'None
+SaO2: ['13','AJE']input: 'None
+SaO2: ['14','AJF']input: 'None
+SaO2: ['15','AJG']input: 'None
+SaO2: ['16','AJH']input: 'None
+SaO2: ['17','AJI']input: 'None
+SaO2: ['18','AJJ']input: 'None
+SaO2: ['19','AJK']input: 'None
+SaO2: ['20','AJL']input: 'None
+SaO2: ['21','AJM']input: 'None
+SaO2: ['22','AJN']input: 'None
+SaO2: ['23','AJO']input: 'None
+SaO2: ['24','AJP']input: 'None
+SaO2: ['25','AJQ']input: 'None
+SaO2: ['26','AJR']input: 'None
+SaO2: ['27','AJS']input: 'None
+SaO2: ['28','AJT']input: 'None
+SpO2: ['1','AJU']input: 'None
+SpO2: ['2','AJV']input: 'None
+SpO2: ['3','AJW']input: 'None
+SpO2: ['4','AJX']input: 'None
+SpO2: ['5','AJY']input: 'None
+SpO2: ['6','AJZ']input: 'None
+SpO2: ['7','AKA']input: 'None
+SpO2: ['8','AKB']input: 'None
+SpO2: ['9','AKC']input: 'None
+SpO2: ['10','AKD']input: 'None
+SpO2: ['11','AKE']input: 'None
+SpO2: ['12','AKF']input: 'None
+SpO2: ['13','AKG']input: 'None
+SpO2: ['14','AKH']input: 'None
+SpO2: ['15','AKI']input: 'None
+SpO2: ['16','AKJ']input: 'None
+SpO2: ['17','AKK']input: 'None
+SpO2: ['18','AKL']input: 'None
+SpO2: ['19','AKM']input: 'None
+SpO2: ['20','AKN']input: 'None
+SpO2: ['21','AKO']input: 'None
+SpO2: ['22','AKP']input: 'None
+SpO2: ['23','AKQ']input: 'None
+SpO2: ['24','AKR']input: 'None
+SpO2: ['25','AKS']input: 'None
+SpO2: ['26','AKT']input: 'None
+SpO2: ['27','AKU']input: 'None
+SpO2: ['28','AKV']input: 'None
+PaFiO2: ['1','AKW']input: 'None
+PaFiO2: ['2','AKX']input: 'None
+PaFiO2: ['3','AKY']input: 'None
+PaFiO2: ['4','AKZ']input: 'None
+PaFiO2: ['5','ALA']input: 'None
+PaFiO2: ['6','ALB']input: 'None
+PaFiO2: ['7','ALC']input: 'None
+PaFiO2: ['8','ALD']input: 'None
+PaFiO2: ['9','ALE']input: 'None
+PaFiO2: ['10','ALF']input: 'None
+PaFiO2: ['11','ALG']input: 'None
+PaFiO2: ['12','ALH']input: 'None
+PaFiO2: ['13','ALI']input: 'None
+PaFiO2: ['14','ALJ']input: 'None
+PaFiO2: ['15','ALK']input: 'None
+PaFiO2: ['16','ALL']input: 'None
+PaFiO2: ['17','ALM']input: 'None
+PaFiO2: ['18','ALN']input: 'None
+PaFiO2: ['19','ALO']input: 'None
+PaFiO2: ['20','ALP']input: 'None
+PaFiO2: ['21','ALQ']input: 'None
+PaFiO2: ['22','ALR']input: 'None
+PaFiO2: ['23','ALS']input: 'None
+PaFiO2: ['24','ALT']input: 'None
+PaFiO2: ['25','ALU']input: 'None
+PaFiO2: ['26','ALV']input: 'None
+PaFiO2: ['27','ALW']input: 'None
+PaFiO2: ['28','ALX']input: 'None
+DECUBITO : ['1','ALY']input: 'None
+DECUBITO : ['2','ALZ']input: 'None
+DECUBITO : ['3','AMA']input: 'None
+DECUBITO : ['4','AMB']input: 'None
+DECUBITO : ['5','AMC']input: 'None
+DECUBITO : ['6','AMD']input: 'None
+DECUBITO : ['7','AME']input: 'None
+DECUBITO : ['8','AMF']input: 'None
+DECUBITO : ['9','AMG']input: 'None
+DECUBITO : ['10','AMH']input: 'None
+DECUBITO : ['11','AMI']input: 'None
+DECUBITO : ['12','AMJ']input: 'None
+DECUBITO : ['13','AMK']input: 'None
+DECUBITO : ['14','AML']input: 'None
+DECUBITO : ['15','AMM']input: 'None
+DECUBITO : ['16','AMN']input: 'None
+DECUBITO : ['17','AMO']input: 'None
+DECUBITO : ['18','AMP']input: 'None
+DECUBITO : ['19','AMQ']input: 'None
+DECUBITO : ['20','AMR']input: 'None
+DECUBITO : ['21','AMS']input: 'None
+DECUBITO : ['22','AMT']input: 'None
+DECUBITO : ['23','AMU']input: 'None
+DECUBITO : ['24','AMV']input: 'None
+DECUBITO : ['25','AMW']input: 'None
+DECUBITO : ['26','AMX']input: 'None
+DECUBITO : ['27','AMY']input: 'None
+DECUBITO : ['28','AMZ']input: 'None
+N pronos: ['None','ANA']input: 'None
+N pronos: ['None','ANB']input: 'None

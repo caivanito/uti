@@ -1,0 +1,329 @@
+DATOS GENERALES: ['=+General!D3','A']input: 'None
+DATOS GENERALES: ['=+General!B4','B']input: 'None
+DATOS GENERALES: ['=+General!B5','C']input: 'None
+DATOS GENERALES: ['=+General!D5','D']input: 'None
+DATOS GENERALES: ['=+General!B6','E']input: 'None
+DATOS GENERALES: ['=+General!G5','F']input: 'None
+DATOS GENERALES: ['=IF(AND(E12<>"",F12<>""),F12/(E12/100)^2,"")','G']input: 'None
+DATOS GENERALES: ['=+General!D6','H']input: 'None
+DATOS GENERALES: ['=+General!G4','I']input: 'None
+DATOS GENERALES: ['=+General!D38','J']input: 'None
+DATOS GENERALES: ['=+General!B38','K']input: 'None
+DATOS GENERALES: ['=IF(L6<>"",L6,"N/C")','L']input: 'None
+DATOS GENERALES: ['=+General!G3','M']input: 'None
+DATOS GENERALES: ['=IFS(OR(M12="",I12=""),"",M12=I12,"1",AND(ISDATE(M12),ISDATE(I12)),I12-M12)','N']input: 'None
+DATOS GENERALES: ['=IFS(AND(I12="",J12=""),"",AND(ISDATE(I12),J12=""),"",J12=I12,"1",AND(ISDATE(I12),ISDATE(J12)),J12-I12)','O']input: 'None
+DATOS GENERALES: ['=IF(P6="SI","SI","NO")','P']input: 'None
+DATOS GENERALES: ['=+General!I5','Q']input: 'None
+DATOS GENERALES: ['=+General!J5','R']input: 'None
+DATOS GENERALES: ['=+General!I4','S']input: 'None
+DATOS GENERALES: ['=+General!J4','T']input: 'None
+DATOS GENERALES: ['=+General!I3','U']input: 'None
+DATOS GENERALES: ['=+General!J3','V']input: 'None
+DATOS GENERALES: ['=+General!J6','W']input: 'None
+DATOS GENERALES: ['=+General!G6','X']input: 'None
+DATOS GENERALES: ['=IFS(Y6<>"",Y6,Y7<>"",Y7,Y8<>"",Y8,Y9<>"",Y9,Y10="","")','Y']input: 'None
+ANTECEDENTES: ['=IF(Z10="HTA","SI","NO")','Z']input: 'None
+ANTECEDENTES: ['=IF(AA10="IAM","SI","NO")','AA']input: 'None
+ANTECEDENTES: ['=IF(AB10="IC","SI","NO")','AB']input: 'None
+ANTECEDENTES: ['=IF(AC10="PCR","SI","NO")','AC']input: 'None
+ANTECEDENTES: ['=IF(AD10="EPOC","SI","NO")','AD']input: 'None
+ANTECEDENTES: ['=IF(AE10="TBQ","SI","NO")','AE']input: 'None
+ANTECEDENTES: ['=IF(AF10="ExTBQ","SI","NO")','AF']input: 'None
+ANTECEDENTES: ['=IF(AG10="ASMA","SI","NO")','AG']input: 'None
+ANTECEDENTES: ['=IF(AH10="OCD","SI","NO")','AH']input: 'None
+ANTECEDENTES: ['=IF(AI10="NMN","SI","NO")','AI']input: 'None
+ANTECEDENTES: ['=IF(AJ10="VMI PREVIA","SI","NO")','AJ']input: 'None
+ANTECEDENTES: ['=IF(AK10="VNI DOMIC","SI","NO")','AK']input: 'None
+ANTECEDENTES: ['=IF(AL10="ACV","SI","NO")','AL']input: 'None
+ANTECEDENTES: ['=IF(AM10="TEC","SI","NO")','AM']input: 'None
+ANTECEDENTES: ['=IF(AN10="ASMA","SI","NO")','AN']input: 'None
+ANTECEDENTES: ['=IF(AO10="ENF NEUROM","SI","NO")','AO']input: 'None
+ANTECEDENTES: ['=IF(AP10="DBT","SI","NO")','AP']input: 'None
+ANTECEDENTES: ['=IF(AQ10="OBESIDAD","SI","NO")','AQ']input: 'None
+ANTECEDENTES: ['=IF(AR10="HIPOTIR","SI","NO")','AR']input: 'None
+ANTECEDENTES: ['=IF(AS10="HIPERTIR","SI","NO")','AS']input: 'None
+ANTECEDENTES: ['=IF(AT10="INSUF RENAL","SI","NO")','AT']input: 'None
+ANTECEDENTES: ['=IF(AU10="POP","SI","NO")','AU']input: 'None
+ANTECEDENTES: ['=IF(AV10="TBC","SI","NO")','AV']input: 'None
+ANTECEDENTES: ['=IF(AW10="HIV","SI","NO")','AW']input: 'None
+ANTECEDENTES: ['=IF(AX10="HEPATITIS","SI","NO")','AX']input: 'None
+ANTECEDENTES: ['=IF(AY10="CHAGAS","SI","NO")','AY']input: 'None
+ANTECEDENTES: ['=IF(AZ10="CONSUMO","SI","NO")','AZ']input: 'None
+ANTECEDENTES: ['=IF(BA10="REUMATOLOGICOS","SI","NO")','BA']input: 'None
+ANTECEDENTES: ['=IF(BB10="PSIQUIATRICOS","SI","NO")','BB']input: 'None
+ANTECEDENTES: ['=IF(BC10="ONCOLOGICOS","SI","NO")','BC']input: 'None
+ANTECEDENTES: ['=IF(BD10="OTROS","SI","NO")','BD']input: 'None
+AVMi: ['=IF(ISDATE(BE6),BE6,"N/C")','BE']input: 'None
+AVMi: ['=IF(BF6<>"",BF6,"N/C")','BF']input: 'None
+AVMi: ['=IF(ISDATE(BG6),BG6,"N/C")','BG']input: 'None
+AVMi: ['=IFS(OR(BF6="",BG6=""),"N/C",BG6-BF6=0,"1",AND(ISDATE(BF6),ISDATE(BG6)),BG6-BF6)','BH']input: 'None
+AVMi: ['0','BI']input: 'None
+AVMi: ['=IF(BJ6<>"",BJ6,"N/C")','BJ']input: 'None
+AVMi: ['=IF(BK6<>"",BK6,"N/C")','BK']input: 'None
+AVMi: ['N/C','BL']input: 'None
+AVMi: ['=IF(BM6="SI","SI","NO")','BM']input: 'None
+AVMi: ['=IF(BN6="SI","SI","NO")','BN']input: 'None
+AVMi: ['=IF(BO6<>"",BO6,"N/C")','BO']input: 'None
+AVMi: ['=+BP6','BP']input: 'None
+AVMi: ['=IF(BQ6="SI","SI","NO")','BQ']input: 'None
+AVMi: ['=IF(ISDATE(BR6),BR6,"N/C")','BR']input: 'None
+AVMi: ['=IF(ISDATE(BS6),BS6,"N/C")','BS']input: 'None
+WEANING: ['=IF(ISDATE(BT6),BT6,"N/C")','BT']input: 'None
+WEANING: ['=IF(BU6<>"",BU6,"N/C")','BU']input: 'None
+WEANING: ['=IF(BV6>0,BV6,"N/C")','BV']input: 'None
+WEANING: ['=IF(ISDATE(BW6),BW6,"N/C")','BW']input: 'None
+WEANING: ['=IF(BX6<>"",BX6,"N/C")','BX']input: 'None
+WEANING: ['=IFS(BY6="NO","NO",BY6="SI","SI",BY6="","N/C")','BY']input: 'None
+WEANING: ['=IF(BZ6<>"",BZ6,"N/C")','BZ']input: 'None
+WEANING: ['=IF(CA6<>"",CA6,"N/C")','CA']input: 'None
+WEANING: ['=IF(CB6<>"",CB6,"N/C")','CB']input: 'None
+WEANING: ['=IF(CC6<>"",CC6,"N/C")','CC']input: 'None
+WEANING: ['=IF(CD6<>"",CD6,"N/C")','CD']input: 'None
+WEANING: ['=IF(CE6<>"",CE6,"N/C")','CE']input: 'None
+WEANING: ['=IF(CF6<>"",CF6,"N/C")','CF']input: 'None
+WEANING: ['=IF(CG6<>"",CG6,"N/C")','CG']input: 'None
+TRAQUEOSTOMÍA: ['=IF(CH6="SI","SI","NO")','CH']input: 'None
+TRAQUEOSTOMÍA: ['=IF(AND(ISDATE(CI6),CH6=""),CI6,"N/C")','CI']input: 'None
+TRAQUEOSTOMÍA: ['=IFS(AND(CJ6<>"",CI6=""),"N/C",AND(CJ6<>"",ISDATE(CI6)),CJ6,AND(CJ6="",CI6=""),"N/C",AND(CI6<>"",CJ6=""),"DATO PERDIDO")','CJ']input: 'None
+TRAQUEOSTOMÍA: ['=IFS(CK6="SI","SI",AND(ISDATE(CI6),CK6=""),"NO",AND(CH6="SI",CK6=""),"NO",CI6="","N/C")','CK']input: 'None
+TRAQUEOSTOMÍA: ['=IFS(AND(CK6="",CL6=""),"N/C", AND(CK6="SI",CL6<>""),CL6,AND(CK6="SI",CL6=""),"0")','CL']input: 'None
+TRAQUEOSTOMÍA: ['=IFS(OR(CM6="SI",CN6<>""),"SI",CM6="NO","NO",CM6="","N/C")','CM']input: 'None
+TRAQUEOSTOMÍA: ['=IF(ISDATE(CN6),CN6,"N/C")','CN']input: 'None
+TRAQUEOSTOMÍA: ['=IFS(AND(CH6="SI",ISDATE(CN6)),CN6-I6,AND(CH6="SI",CN6=""),J6-I6,AND(ISDATE(CI6),ISDATE(CN6)),CN6-CI6,AND(ISDATE(CI6),CN6=""),J6-CI6,AND(CH6="",AND(CI6="",CN6="")),"N/C")','CO']input: 'None
+TRAQUEOSTOMÍA: ['=IF(AND(ISDATE(CI6),ISDATE(BE6)),CI6-BE6,"N/C")','CP']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IFS(OR(CR6<>"",ISDATE(CS6)),"SI",AND(CR6="",CS6=""),"NO")','CQ']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(CR6<>"",CR6,"N/C")','CR']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(ISDATE(CS6),CS6,"N/C")','CS']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(CT6<>"",CT6,"N/C")','CT']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IFS(CU6<>"",CU6,CU6="","N/C")','CU']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(CV6<>"",CV6,"N/C")','CV']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IFS(AND(CT6="",CS6=""),"N/C",CT6-CS6=0,"1",AND(ISDATE(CS6),ISDATE(CT6)),CT6-CS6)','CW']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IFS(OR(CX6<>"",ISDATE(CZ6)),"SI",AND(CX6="",CZ6=""),"NO")','CX']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(CX6<>"",CX6,"N/C")','CY']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(ISDATE(CZ6),CZ6,"N/C")','CZ']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(ISDATE(DA6),DA6,"N/C")','DA']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(DB6<>"",DB6,"N/C")','DB']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IF(DC6<>"",DC6,"N/C")','DC']input: 'None
+SOPORTE NO INVASIVO PREVIO VMI: ['=IFS(AND(CZ6="",DA6=""),"N/C",DA6-CZ6=0,"1",AND(ISDATE(CZ6),ISDATE(DA6)),DA6-CZ6)','DD']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IFS(OR(DE6<>"",ISDATE(DG6)),"SI",AND(DE6="",DG6=""),"NO")','DE']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(DE6<>"",DE6,"N/C")','DF']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(ISDATE(DG6),DG6,"N/C")','DG']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(ISDATE(DH6),DH6,"N/C")','DH']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IFS(DI6<>"",DI6,AND(ISDATE(DH6),ISDATE(DG6)),"DATO PERDIDO",AND(DG6="",DH6=""),"N/C")','DI']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(DJ6<>"",DJ6,"N/C")','DJ']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IFS(OR(DH6="",DG6=""),"N/C",DH6-DG6=0,"1",AND(ISDATE(DH6),ISDATE(DG6)),DH6-DG6)','DK']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IFS(OR(DM6<>"",ISDATE(DN6)),"SI",AND(DM6="",DN6=""),"N/C")','DL']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(DM6<>"",DM6,"N/C")','DM']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(ISDATE(DN6),DN6,"N/C")','DN']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(ISDATE(DO6),DO6,"N/C")','DO']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IFS(DP6<>"",DP6,AND(ISDATE(DO6),ISDATE(DN6)),"DATO PERDIDO",AND(DN6="",DO6=""),"N/C")','DP']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IF(DQ6<>"",DQ6,"N/C")','DQ']input: 'None
+SOPORTE NO INVASIVO EN WEANING: ['=IFS(AND(DN6="",DO6=""),"N/C",DO6-DN6=0,"1",AND(ISDATE(DN6),ISDATE(DO6)),DO6-DN6)','DR']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DS10="TEP",DS11="TEP"),"SI","NO")','DS']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DT10="IAM",DT11="IAM"),"SI","NO")','DT']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DU10="PCR",DU11="PCR"),"SI","NO")','DU']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DV10="SDRA",DV11="SDRA"),"SI","NO")','DV']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DW10="BNM",DW11="BNM"),"SI","NO")','DW']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DX10="PRONO",DX11="PRONO"),"SI","NO")','DX']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DY10="DAUCI",DY11="DAUCI"),"SI","NO")','DY']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(DZ10="BAROTRAUMA",DZ11="BAROTRAUMA"),"SI","NO")','DZ']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EA10="FMO",EA11="FMO"),"SI","NO")','EA']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EB10="EOT NO PROGRAMADA",EB11="EOT NO PROGRAMADA"),"SI","NO")','EB']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EC10="DELIRIUM",EC11="DELIRIUM"),"SI","NO")','EC']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(ED10="PAFI<200",ED11="PAFI<200"),"SI","NO")','ED']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EE10="SHOCK/SEPSIS",EE11="SHOCK/SEPSIS"),"SI","NO")','EE']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EF10="I RENAL",EF11="I RENAL"),"SI","NO")','EF']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EG10="I RENAL",EG11="I RENAL"),"SI","NO")','EG']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EH10="LESIONES FACIALES",EH11="LESIONES FACIALES"),"SI","NO")','EH']input: 'None
+COMPLICACIONES GENERALES: ['=IF(OR(EI10="CAMBIO DE INTERFAZ POR DISCOMFORT",EI11="CAMBIO DE INTERFAZ POR DISCOMFORT"),"SI","NO")','EI']input: 'None
+COMPLICACIONES GENERALES: ['=COUNTIF(DS12:EI12,"SI")','EJ']input: 'None
+DROGAS: ['=+Monitoreo!C65','EK']input: 'None
+DROGAS: ['=+Monitoreo!C66','EL']input: 'None
+DROGAS: ['=+Monitoreo!C67','EM']input: 'None
+DROGAS: ['=+Monitoreo!C68','EN']input: 'None
+DROGAS: ['=+Monitoreo!C69','EO']input: 'None
+DROGAS: ['=+Monitoreo!C70','EP']input: 'None
+DROGAS: ['=+Monitoreo!C71','EQ']input: 'None
+DROGAS: ['=+Monitoreo!F65','ER']input: 'None
+DROGAS: ['=+Monitoreo!F66','ES']input: 'None
+DROGAS: ['=+Monitoreo!F67','ET']input: 'None
+DROGAS: ['=+Monitoreo!F68','EU']input: 'None
+DROGAS: ['=+Monitoreo!F69','EV']input: 'None
+DROGAS: ['=+Monitoreo!F70','EW']input: 'None
+DROGAS: ['=+Monitoreo!F71','EX']input: 'None
+DROGAS: ['=+Monitoreo!I65','EY']input: 'None
+DROGAS: ['=+Monitoreo!I66','EZ']input: 'None
+DROGAS: ['=+Monitoreo!I67','FA']input: 'None
+DROGAS: ['=+Monitoreo!I68','FB']input: 'None
+DROGAS: ['=+Monitoreo!I69','FC']input: 'None
+DROGAS: ['=+Monitoreo!I70','FD']input: 'None
+DROGAS: ['=+Monitoreo!I71','FE']input: 'None
+DROGAS: ['=+Monitoreo!I72','FF']input: 'None
+DROGAS: ['=+Monitoreo!M69','FG']input: 'None
+DROGAS: ['=+Monitoreo!M70','FH']input: 'None
+DROGAS: ['=+Monitoreo!M71','FI']input: 'None
+DROGAS: ['=+Monitoreo!M72','FJ']input: 'None
+DROGAS: ['=+Monitoreo!P69','FK']input: 'None
+DROGAS: ['=+Monitoreo!P70','FL']input: 'None
+DROGAS: ['=+Monitoreo!P71','FM']input: 'None
+DELIRIUM: ['=+Monitoreo!M65','FN']input: 'None
+DELIRIUM: ['=+Monitoreo!M66','FO']input: 'None
+DELIRIUM: ['=+Monitoreo!M67','FP']input: 'None
+MODO VENTILATORIO (DÍAS): ['=+Monitoreo!C29','FQ']input: 'None
+MODO VENTILATORIO (DÍAS): ['=+Monitoreo!D29','FR']input: 'None
+MODO VENTILATORIO (DÍAS): ['=+Monitoreo!E29','FS']input: 'None
+MODO VENTILATORIO (DÍAS): ['=+Monitoreo!G29','FT']input: 'None
+MODO VENTILATORIO (DÍAS): ['=+Monitoreo!I29','FU']input: 'None
+Vt/Pi SETEADA (DÍAS): ['=+Monitoreo!C30','FV']input: 'None
+Vt/Pi SETEADA (DÍAS): ['=+Monitoreo!D30','FW']input: 'None
+Vt/Pi SETEADA (DÍAS): ['=+Monitoreo!E30','FX']input: 'None
+Vt/Pi SETEADA (DÍAS): ['=+Monitoreo!G30','FY']input: 'None
+Vt/Pi SETEADA (DÍAS): ['=+Monitoreo!I30','FZ']input: 'None
+FR SETEADA: ['=+Monitoreo!C31','GA']input: 'None
+FR SETEADA: ['=+Monitoreo!D31','GB']input: 'None
+FR SETEADA: ['=+Monitoreo!E31','GC']input: 'None
+FR SETEADA: ['=+Monitoreo!G31','GD']input: 'None
+FR SETEADA: ['=+Monitoreo!I31','GE']input: 'None
+PEEP SETEADA: ['=+Monitoreo!C32','GF']input: 'None
+PEEP SETEADA: ['=+Monitoreo!D32','GG']input: 'None
+PEEP SETEADA: ['=+Monitoreo!E32','GH']input: 'None
+PEEP SETEADA: ['=+Monitoreo!G32','GI']input: 'None
+PEEP SETEADA: ['=+Monitoreo!I32','GJ']input: 'None
+FiO2 SETEADA: ['=+Monitoreo!C33','GK']input: 'None
+FiO2 SETEADA: ['=+Monitoreo!D33','GL']input: 'None
+FiO2 SETEADA: ['=+Monitoreo!E33','GM']input: 'None
+FiO2 SETEADA: ['=+Monitoreo!G33','GN']input: 'None
+FiO2 SETEADA: ['=+Monitoreo!I33','GO']input: 'None
+FR TOTAL: ['=+Monitoreo!C37','GP']input: 'None
+FR TOTAL: ['=+Monitoreo!D37','GQ']input: 'None
+FR TOTAL: ['=+Monitoreo!E37','GR']input: 'None
+FR TOTAL: ['=+Monitoreo!G37','GS']input: 'None
+FR TOTAL: ['=+Monitoreo!I37','GT']input: 'None
+VOLUMEN MINUTO: ['=+Monitoreo!C39','GU']input: 'None
+VOLUMEN MINUTO: ['=+Monitoreo!D39','GV']input: 'None
+VOLUMEN MINUTO: ['=+Monitoreo!E39','GW']input: 'None
+VOLUMEN MINUTO: ['=+Monitoreo!G39','GX']input: 'None
+VOLUMEN MINUTO: ['=+Monitoreo!I39','GY']input: 'None
+PRESIÓN PICO: ['=+Monitoreo!C40','GZ']input: 'None
+PRESIÓN PICO: ['=+Monitoreo!D40','HA']input: 'None
+PRESIÓN PICO: ['=+Monitoreo!E40','HB']input: 'None
+PRESIÓN PICO: ['=+Monitoreo!G40','HC']input: 'None
+PRESIÓN PICO: ['=+Monitoreo!I40','HD']input: 'None
+PRESIÓN PLATEAU: ['=+Monitoreo!C41','HE']input: 'None
+PRESIÓN PLATEAU: ['=+Monitoreo!D41','HF']input: 'None
+PRESIÓN PLATEAU: ['=+Monitoreo!E41','HG']input: 'None
+PRESIÓN PLATEAU: ['=+Monitoreo!G41','HH']input: 'None
+PRESIÓN PLATEAU: ['=+Monitoreo!I41','HI']input: 'None
+PEEP TOTAL: ['=+Monitoreo!C42','HJ']input: 'None
+PEEP TOTAL: ['=+Monitoreo!D42','HK']input: 'None
+PEEP TOTAL: ['=+Monitoreo!E42','HL']input: 'None
+PEEP TOTAL: ['=+Monitoreo!G42','HM']input: 'None
+PEEP TOTAL: ['=+Monitoreo!I42','HN']input: 'None
+DRIVING PRESSURE: ['=+Monitoreo!C51','HO']input: 'None
+DRIVING PRESSURE: ['=+Monitoreo!D51','HP']input: 'None
+DRIVING PRESSURE: ['=+Monitoreo!E51','HQ']input: 'None
+DRIVING PRESSURE: ['=+Monitoreo!G51','HR']input: 'None
+DRIVING PRESSURE: ['=+Monitoreo!I51','HS']input: 'None
+Vt (mL/Kg): ['=+Monitoreo!C47','HT']input: 'None
+Vt (mL/Kg): ['=+Monitoreo!D47','HU']input: 'None
+Vt (mL/Kg): ['=+Monitoreo!E47','HV']input: 'None
+Vt (mL/Kg): ['=+Monitoreo!G47','HW']input: 'None
+Vt (mL/Kg): ['=+Monitoreo!I47','HX']input: 'None
+COMPLIANCE: ['=+Monitoreo!C52','HY']input: 'None
+COMPLIANCE: ['=+Monitoreo!D52','HZ']input: 'None
+COMPLIANCE: ['=+Monitoreo!E52','IA']input: 'None
+COMPLIANCE: ['=+Monitoreo!G52','IB']input: 'None
+COMPLIANCE: ['=+Monitoreo!I52','IC']input: 'None
+RESISTENCIA: ['=+Monitoreo!C53','ID']input: 'None
+RESISTENCIA: ['=+Monitoreo!D53','IE']input: 'None
+RESISTENCIA: ['=+Monitoreo!E53','IF']input: 'None
+RESISTENCIA: ['=+Monitoreo!G53','IG']input: 'None
+RESISTENCIA: ['=+Monitoreo!I53','IH']input: 'None
+PRESIÓN MEDIA: ['=+Monitoreo!C50','II']input: 'None
+PRESIÓN MEDIA: ['=+Monitoreo!D50','IJ']input: 'None
+PRESIÓN MEDIA: ['=+Monitoreo!E50','IK']input: 'None
+PRESIÓN MEDIA: ['=+Monitoreo!G50','IL']input: 'None
+PRESIÓN MEDIA: ['=+Monitoreo!I50','IM']input: 'None
+MECHANICAL POWER: ['=+Monitoreo!C54','IN']input: 'None
+MECHANICAL POWER: ['=+Monitoreo!D54','IO']input: 'None
+MECHANICAL POWER: ['=+Monitoreo!E54','IP']input: 'None
+MECHANICAL POWER: ['=+Monitoreo!G54','IQ']input: 'None
+MECHANICAL POWER: ['=+Monitoreo!I54','IR']input: 'None
+MECHANICAL POWER / Crs: ['=+Monitoreo!C55','IS']input: 'None
+MECHANICAL POWER / Crs: ['=+Monitoreo!D55','IT']input: 'None
+MECHANICAL POWER / Crs: ['=+Monitoreo!E55','IU']input: 'None
+MECHANICAL POWER / Crs: ['=+Monitoreo!G55','IV']input: 'None
+MECHANICAL POWER / Crs: ['=+Monitoreo!I55','IW']input: 'None
+MECHANICAL POWER / Pp: ['=+Monitoreo!C56','IX']input: 'None
+MECHANICAL POWER / Pp: ['=+Monitoreo!D56','IY']input: 'None
+MECHANICAL POWER / Pp: ['=+Monitoreo!E56','IZ']input: 'None
+MECHANICAL POWER / Pp: ['=+Monitoreo!G56','JA']input: 'None
+MECHANICAL POWER / Pp: ['=+Monitoreo!I56','JB']input: 'None
+ΔP/FR: ['=+Monitoreo!C61','JC']input: 'None
+ΔP/FR: ['=+Monitoreo!D61','JD']input: 'None
+ΔP/FR: ['=+Monitoreo!E61','JE']input: 'None
+ΔP/FR: ['=+Monitoreo!G61','JF']input: 'None
+ΔP/FR: ['=+Monitoreo!I61','JG']input: 'None
+VENTILATORY RATIO: ['=+Monitoreo!C57','JH']input: 'None
+VENTILATORY RATIO: ['=+Monitoreo!D57','JI']input: 'None
+VENTILATORY RATIO: ['=+Monitoreo!E57','JJ']input: 'None
+VENTILATORY RATIO: ['=+Monitoreo!G57','JK']input: 'None
+VENTILATORY RATIO: ['=+Monitoreo!I57','JL']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['=+Monitoreo!C58','JM']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['=+Monitoreo!D58','JN']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['=+Monitoreo!E58','JO']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['=+Monitoreo!G58','JP']input: 'None
+PRESSURE MUSCLE INDEX (PMI): ['=+Monitoreo!I58','JQ']input: 'None
+P0.1: ['=+Monitoreo!C44','JR']input: 'None
+P0.1: ['=+Monitoreo!D44','JS']input: 'None
+P0.1: ['=+Monitoreo!E44','JT']input: 'None
+P0.1: ['=+Monitoreo!G44','JU']input: 'None
+P0.1: ['=+Monitoreo!I44','JV']input: 'None
+Pocc: ['=+Monitoreo!C45','JW']input: 'None
+Pocc: ['=+Monitoreo!D45','JX']input: 'None
+Pocc: ['=+Monitoreo!E45','JY']input: 'None
+Pocc: ['=+Monitoreo!G45','JZ']input: 'None
+Pocc: ['=+Monitoreo!I45','KA']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['=+Monitoreo!C62','KB']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['=+Monitoreo!D62','KC']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['=+Monitoreo!E62','KD']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['=+Monitoreo!G62','KE']input: 'None
+ÍNDICE DE OXIGENACIÓN: ['=+Monitoreo!I62','KF']input: 'None
+pH: ['=+Monitoreo!C20','KG']input: 'None
+pH: ['=+Monitoreo!D20','KH']input: 'None
+pH: ['=+Monitoreo!E20','KI']input: 'None
+pH: ['=+Monitoreo!G20','KJ']input: 'None
+pH: ['=+Monitoreo!I20','KK']input: 'None
+PaO2: ['=+Monitoreo!C22','KL']input: 'None
+PaO2: ['=+Monitoreo!D22','KM']input: 'None
+PaO2: ['=+Monitoreo!E22','KN']input: 'None
+PaO2: ['=+Monitoreo!G22','KO']input: 'None
+PaO2: ['=+Monitoreo!I22','KP']input: 'None
+PaCO2: ['=+Monitoreo!C21','KQ']input: 'None
+PaCO2: ['=+Monitoreo!D21','KR']input: 'None
+PaCO2: ['=+Monitoreo!E21','KS']input: 'None
+PaCO2: ['=+Monitoreo!G21','KT']input: 'None
+PaCO2: ['=+Monitoreo!I21','KU']input: 'None
+SaO2: ['=+Monitoreo!C25','KV']input: 'None
+SaO2: ['=+Monitoreo!D25','KW']input: 'None
+SaO2: ['=+Monitoreo!E25','KX']input: 'None
+SaO2: ['=+Monitoreo!G25','KY']input: 'None
+SaO2: ['=+Monitoreo!I25','KZ']input: 'None
+SpO2: ['=+Monitoreo!C10','LA']input: 'None
+SpO2: ['=+Monitoreo!D10','LB']input: 'None
+SpO2: ['=+Monitoreo!E10','LC']input: 'None
+SpO2: ['=+Monitoreo!G10','LD']input: 'None
+SpO2: ['=+Monitoreo!I10','LE']input: 'None
+PaFiO2: ['=+Monitoreo!C28','LF']input: 'None
+PaFiO2: ['=+Monitoreo!D28','LG']input: 'None
+PaFiO2: ['=+Monitoreo!E28','LH']input: 'None
+PaFiO2: ['=+Monitoreo!G28','LI']input: 'None
+PaFiO2: ['=+Monitoreo!I28','LJ']input: 'None
+DECUBITO : ['None','LK']input: 'None
+DECUBITO : ['None','LL']input: 'None
+DECUBITO : ['None','LM']input: 'None
+DECUBITO : ['None','LN']input: 'None
+DECUBITO : ['None','LO']input: 'None
+N pronos: ['0','LP']input: 'None
+N pronos: ['None','LQ']input: 'None

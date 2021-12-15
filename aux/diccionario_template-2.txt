@@ -1,0 +1,329 @@
+ID : ['=+General!D3','A']input: 'None
+Apellido y Nombre: ['=+General!B4','B']input: 'None
+Edad : ['=+General!B5','C']input: 'None
+Género: ['=+General!D5','D']input: 'None
+Altura (cm): ['=+General!B6','E']input: 'None
+Peso real (Kg): ['=+General!G5','F']input: 'None
+IMC: ['=IF(AND(E12<>"",F12<>""),F12/(E12/100)^2,"")','G']input: 'None
+Peso predicho: ['=+General!D6','H']input: 'None
+Fecha de ingreso UTI: ['=+General!G4','I']input: 'None
+Fecha de egreso UTI: ['=+General!D38','J']input: 'None
+Condición egreso: ['=+General!B38','K']input: 'None
+Destino egreso: ['=IF(L6<>"",L6,"N/C")','L']input: 'None
+Fecha de ingreso Hosp: ['=+General!G3','M']input: 'None
+LOS previo UTI: ['=IFS(OR(M12="",I12=""),"",M12=I12,"1",AND(ISDATE(M12),ISDATE(I12)),I12-M12)','N']input: 'None
+LOS UTI: ['=IFS(AND(I12="",J12=""),"",AND(ISDATE(I12),J12=""),"",J12=I12,"1",AND(ISDATE(I12),ISDATE(J12)),J12-I12)','O']input: 'None
+LET: ['=IF(P6="SI","SI","NO")','P']input: 'None
+SAPS II: ['=+General!I5','Q']input: 'None
+% SAPS II: ['=+General!J5','R']input: 'None
+APACHE II: ['=+General!I4','S']input: 'None
+% APACHE II: ['=+General!J4','T']input: 'None
+SOFA: ['=+General!I3','U']input: 'None
+N disfunciones SOFA: ['=+General!J3','V']input: 'None
+CHARLSON: ['=+General!J6','W']input: 'None
+Tipo de ingreso: ['=+General!G6','X']input: 'None
+Diagnóstico de ingreso: ['=IFS(Y6<>"",Y6,Y7<>"",Y7,Y8<>"",Y8,Y9<>"",Y9,Y10="","")','Y']input: 'None
+HTA: ['=IF(Z10="HTA","SI","NO")','Z']input: 'None
+IAM: ['=IF(AA10="IAM","SI","NO")','AA']input: 'None
+IC: ['=IF(AB10="IC","SI","NO")','AB']input: 'None
+PCR: ['=IF(AC10="PCR","SI","NO")','AC']input: 'None
+EPOC: ['=IF(AD10="EPOC","SI","NO")','AD']input: 'None
+TBQ: ['=IF(AE10="TBQ","SI","NO")','AE']input: 'None
+EX TBQ: ['=IF(AF10="ExTBQ","SI","NO")','AF']input: 'None
+ASMA: ['=IF(AG10="ASMA","SI","NO")','AG']input: 'None
+OCD: ['=IF(AH10="OCD","SI","NO")','AH']input: 'None
+NMN: ['=IF(AI10="NMN","SI","NO")','AI']input: 'None
+VMI PREVIA: ['=IF(AJ10="VMI PREVIA","SI","NO")','AJ']input: 'None
+VNI DOMICILIARIA: ['=IF(AK10="VNI DOMIC","SI","NO")','AK']input: 'None
+ACV: ['=IF(AL10="ACV","SI","NO")','AL']input: 'None
+TEC: ['=IF(AM10="TEC","SI","NO")','AM']input: 'None
+ANEURISMA: ['=IF(AN10="ASMA","SI","NO")','AN']input: 'None
+ENF NEUROMUSC: ['=IF(AO10="ENF NEUROM","SI","NO")','AO']input: 'None
+DBT: ['=IF(AP10="DBT","SI","NO")','AP']input: 'None
+OBESIDAD: ['=IF(AQ10="OBESIDAD","SI","NO")','AQ']input: 'None
+HIPOTIROIDISMO: ['=IF(AR10="HIPOTIR","SI","NO")','AR']input: 'None
+HIPERTIROIDISMO: ['=IF(AS10="HIPERTIR","SI","NO")','AS']input: 'None
+INSUF RENAL: ['=IF(AT10="INSUF RENAL","SI","NO")','AT']input: 'None
+POP: ['=IF(AU10="POP","SI","NO")','AU']input: 'None
+TBC: ['=IF(AV10="TBC","SI","NO")','AV']input: 'None
+HIV: ['=IF(AW10="HIV","SI","NO")','AW']input: 'None
+HEPATITIS: ['=IF(AX10="HEPATITIS","SI","NO")','AX']input: 'None
+CHAGAS: ['=IF(AY10="CHAGAS","SI","NO")','AY']input: 'None
+CONSUMO DE SUSTANCIAS: ['=IF(AZ10="CONSUMO","SI","NO")','AZ']input: 'None
+REUMATOLOGICOS: ['=IF(BA10="REUMATOLOGICOS","SI","NO")','BA']input: 'None
+PSIQUIATRICOS: ['=IF(BB10="PSIQUIATRICOS","SI","NO")','BB']input: 'None
+ONCOLOGICOS: ['=IF(BC10="ONCOLOGICOS","SI","NO")','BC']input: 'None
+OTROS: ['=IF(BD10="OTROS","SI","NO")','BD']input: 'None
+Fecha IOT: ['=IF(ISDATE(BE6),BE6,"N/C")','BE']input: 'None
+Inicio AVMi: ['=IF(BF6<>"",BF6,"N/C")','BF']input: 'None
+Fin AVMi: ['=IF(ISDATE(BG6),BG6,"N/C")','BG']input: 'None
+Días AVMi: ['=IFS(OR(BF6="",BG6=""),"N/C",BG6-BF6=0,"1",AND(ISDATE(BF6),ISDATE(BG6)),BG6-BF6)','BH']input: 'None
+Días AVMi previo UTI: ['0','BI']input: 'None
+Días de TOT: ['=IF(BJ6<>"",BJ6,"N/C")','BJ']input: 'None
+Motivo AVMi: ['=IF(BK6<>"",BK6,"N/C")','BK']input: 'None
+Otro Motivo: ['N/C','BL']input: 'None
+Ingresa ARM: ['=IF(BM6="SI","SI","NO")','BM']input: 'None
+Transtubación: ['=IF(BN6="SI","SI","NO")','BN']input: 'None
+Nº transtubación: ['=IF(BO6<>"",BO6,"N/C")','BO']input: 'None
+Días libres de VM al día 28: ['=+BP6','BP']input: 'None
+Nuevo evento: ['=IF(BQ6="SI","SI","NO")','BQ']input: 'None
+Inicio nuevo evento: ['=IF(ISDATE(BR6),BR6,"N/C")','BR']input: 'None
+Fin nuevo evento: ['=IF(ISDATE(BS6),BS6,"N/C")','BS']input: 'None
+Fecha de inicio: ['=IF(ISDATE(BT6),BT6,"N/C")','BT']input: 'None
+Método PVE: ['=IF(BU6<>"",BU6,"N/C")','BU']input: 'None
+Tiempo PVE: ['=IF(BV6>0,BV6,"N/C")','BV']input: 'None
+Fecha EOT: ['=IF(ISDATE(BW6),BW6,"N/C")','BW']input: 'None
+Tipo EOT: ['=IF(BX6<>"",BX6,"N/C")','BX']input: 'None
+Falla EOT: ['=IFS(BY6="NO","NO",BY6="SI","SI",BY6="","N/C")','BY']input: 'None
+Hs a la falla: ['=IF(BZ6<>"",BZ6,"N/C")','BZ']input: 'None
+ReIOT: ['=IF(CA6<>"",CA6,"N/C")','CA']input: 'None
+Motivo ReIOT: ['=IF(CB6<>"",CB6,"N/C")','CB']input: 'None
+Nº Fallas EOT: ['=IF(CC6<>"",CC6,"N/C")','CC']input: 'None
+Nº de PVE: ['=IF(CD6<>"",CD6,"N/C")','CD']input: 'None
+WIND: ['=IF(CE6<>"",CE6,"N/C")','CE']input: 'None
+BOLES: ['=IF(CF6<>"",CF6,"N/C")','CF']input: 'None
+Egresa dependiente VM: ['=IF(CG6<>"",CG6,"N/C")','CG']input: 'None
+Ingresa TQT: ['=IF(CH6="SI","SI","NO")','CH']input: 'None
+Fecha TQT: ['=IF(AND(ISDATE(CI6),CH6=""),CI6,"N/C")','CI']input: 'None
+Tipo TQT: ['=IFS(AND(CJ6<>"",CI6=""),"N/C",AND(CJ6<>"",ISDATE(CI6)),CJ6,AND(CJ6="",CI6=""),"N/C",AND(CI6<>"",CJ6=""),"DATO PERDIDO")','CJ']input: 'None
+Cambio TQT: ['=IFS(CK6="SI","SI",AND(ISDATE(CI6),CK6=""),"NO",AND(CH6="SI",CK6=""),"NO",CI6="","N/C")','CK']input: 'None
+Nº cambios TQT: ['=IFS(AND(CK6="",CL6=""),"N/C", AND(CK6="SI",CL6<>""),CL6,AND(CK6="SI",CL6=""),"0")','CL']input: 'None
+Decanulado: ['=IFS(OR(CM6="SI",CN6<>""),"SI",CM6="NO","NO",CM6="","N/C")','CM']input: 'None
+Fecha decanulación: ['=IF(ISDATE(CN6),CN6,"N/C")','CN']input: 'None
+Días de TQT: ['=IFS(AND(CH6="SI",ISDATE(CN6)),CN6-I6,AND(CH6="SI",CN6=""),J6-I6,AND(ISDATE(CI6),ISDATE(CN6)),CN6-CI6,AND(ISDATE(CI6),CN6=""),J6-CI6,AND(CH6="",AND(CI6="",CN6="")),"N/C")','CO']input: 'None
+Días de tubo a TQT: ['=IF(AND(ISDATE(CI6),ISDATE(BE6)),CI6-BE6,"N/C")','CP']input: 'None
+CNAFO: ['=IFS(OR(CR6<>"",ISDATE(CS6)),"SI",AND(CR6="",CS6=""),"NO")','CQ']input: 'None
+Motivo CNAFO: ['=IF(CR6<>"",CR6,"N/C")','CR']input: 'None
+Fecha de inicio: ['=IF(ISDATE(CS6),CS6,"N/C")','CS']input: 'None
+Fecha de fin: ['=IF(CT6<>"",CT6,"N/C")','CT']input: 'None
+Falla: ['=IFS(CU6<>"",CU6,CU6="","N/C")','CU']input: 'None
+Causa de falla: ['=IF(CV6<>"",CV6,"N/C")','CV']input: 'None
+Días CNAFO: ['=IFS(AND(CT6="",CS6=""),"N/C",CT6-CS6=0,"1",AND(ISDATE(CS6),ISDATE(CT6)),CT6-CS6)','CW']input: 'None
+VMNI: ['=IFS(OR(CX6<>"",ISDATE(CZ6)),"SI",AND(CX6="",CZ6=""),"NO")','CX']input: 'None
+Motivo VMNI: ['=IF(CX6<>"",CX6,"N/C")','CY']input: 'None
+Fecha de inicio: ['=IF(ISDATE(CZ6),CZ6,"N/C")','CZ']input: 'None
+Fecha de fin: ['=IF(ISDATE(DA6),DA6,"N/C")','DA']input: 'None
+Falla: ['=IF(DB6<>"",DB6,"N/C")','DB']input: 'None
+Causa de falla: ['=IF(DC6<>"",DC6,"N/C")','DC']input: 'None
+Días VMNI: ['=IFS(AND(CZ6="",DA6=""),"N/C",DA6-CZ6=0,"1",AND(ISDATE(CZ6),ISDATE(DA6)),DA6-CZ6)','DD']input: 'None
+CNAFO: ['=IFS(OR(DE6<>"",ISDATE(DG6)),"SI",AND(DE6="",DG6=""),"NO")','DE']input: 'None
+Motivo: ['=IF(DE6<>"",DE6,"N/C")','DF']input: 'None
+Fecha de inicio: ['=IF(ISDATE(DG6),DG6,"N/C")','DG']input: 'None
+Fecha de fin: ['=IF(ISDATE(DH6),DH6,"N/C")','DH']input: 'None
+Falla: ['=IFS(DI6<>"",DI6,AND(ISDATE(DH6),ISDATE(DG6)),"DATO PERDIDO",AND(DG6="",DH6=""),"N/C")','DI']input: 'None
+ReIOT Post CNAFO: ['=IF(DJ6<>"",DJ6,"N/C")','DJ']input: 'None
+Días CNAFO: ['=IFS(OR(DH6="",DG6=""),"N/C",DH6-DG6=0,"1",AND(ISDATE(DH6),ISDATE(DG6)),DH6-DG6)','DK']input: 'None
+VMNI: ['=IFS(OR(DM6<>"",ISDATE(DN6)),"SI",AND(DM6="",DN6=""),"N/C")','DL']input: 'None
+Motivo: ['=IF(DM6<>"",DM6,"N/C")','DM']input: 'None
+Fecha de inicio: ['=IF(ISDATE(DN6),DN6,"N/C")','DN']input: 'None
+Fecha de fin: ['=IF(ISDATE(DO6),DO6,"N/C")','DO']input: 'None
+Falla: ['=IFS(DP6<>"",DP6,AND(ISDATE(DO6),ISDATE(DN6)),"DATO PERDIDO",AND(DN6="",DO6=""),"N/C")','DP']input: 'None
+ReIOT post VMNI: ['=IF(DQ6<>"",DQ6,"N/C")','DQ']input: 'None
+Días VMNI: ['=IFS(AND(DN6="",DO6=""),"N/C",DO6-DN6=0,"1",AND(ISDATE(DN6),ISDATE(DO6)),DO6-DN6)','DR']input: 'None
+TEP: ['=IF(OR(DS10="TEP",DS11="TEP"),"SI","NO")','DS']input: 'None
+IAM: ['=IF(OR(DT10="IAM",DT11="IAM"),"SI","NO")','DT']input: 'None
+PCR: ['=IF(OR(DU10="PCR",DU11="PCR"),"SI","NO")','DU']input: 'None
+SDRA: ['=IF(OR(DV10="SDRA",DV11="SDRA"),"SI","NO")','DV']input: 'None
+BNMr: ['=IF(OR(DW10="BNM",DW11="BNM"),"SI","NO")','DW']input: 'None
+PRONO: ['=IF(OR(DX10="PRONO",DX11="PRONO"),"SI","NO")','DX']input: 'None
+DAUCI: ['=IF(OR(DY10="DAUCI",DY11="DAUCI"),"SI","NO")','DY']input: 'None
+BAROTRAUMA: ['=IF(OR(DZ10="BAROTRAUMA",DZ11="BAROTRAUMA"),"SI","NO")','DZ']input: 'None
+FMO: ['=IF(OR(EA10="FMO",EA11="FMO"),"SI","NO")','EA']input: 'None
+EOT NO PROGRAMADA: ['=IF(OR(EB10="EOT NO PROGRAMADA",EB11="EOT NO PROGRAMADA"),"SI","NO")','EB']input: 'None
+DELIRIUM: ['=IF(OR(EC10="DELIRIUM",EC11="DELIRIUM"),"SI","NO")','EC']input: 'None
+PaFiO2 <200: ['=IF(OR(ED10="PAFI<200",ED11="PAFI<200"),"SI","NO")','ED']input: 'None
+SHOCK/SEPSIS: ['=IF(OR(EE10="SHOCK/SEPSIS",EE11="SHOCK/SEPSIS"),"SI","NO")','EE']input: 'None
+I. RENAL: ['=IF(OR(EF10="I RENAL",EF11="I RENAL"),"SI","NO")','EF']input: 'None
+NAVM: ['=IF(OR(EG10="I RENAL",EG11="I RENAL"),"SI","NO")','EG']input: 'None
+LESIONES FACIALES: ['=IF(OR(EH10="LESIONES FACIALES",EH11="LESIONES FACIALES"),"SI","NO")','EH']input: 'None
+CAMBIO DE INTERFAZ POR DISCONFORT: ['=IF(OR(EI10="CAMBIO DE INTERFAZ POR DISCOMFORT",EI11="CAMBIO DE INTERFAZ POR DISCOMFORT"),"SI","NO")','EI']input: 'None
+Nº de Complicac: ['=COUNTIF(DS12:EI12,"SI")','EJ']input: 'None
+SEDANTES: ['=+Monitoreo!C65','EK']input: 'None
+MDZ: ['=+Monitoreo!C66','EL']input: 'None
+PROPO: ['=+Monitoreo!C67','EM']input: 'None
+DEXMEDETO: ['=+Monitoreo!C68','EN']input: 'None
+MDZ/PROPO: ['=+Monitoreo!C69','EO']input: 'None
+KETAMINA: ['=+Monitoreo!C70','EP']input: 'None
+OTRO SEDANTE: ['=+Monitoreo!C71','EQ']input: 'None
+ANALGESIA: ['=+Monitoreo!F65','ER']input: 'None
+FNT: ['=+Monitoreo!F66','ES']input: 'None
+MORFINA: ['=+Monitoreo!F67','ET']input: 'None
+REMIFNT: ['=+Monitoreo!F68','EU']input: 'None
+DOLOFRIX: ['=+Monitoreo!F69','EV']input: 'None
+AINES: ['=+Monitoreo!F70','EW']input: 'None
+OTROS ANALGÉSICOS: ['=+Monitoreo!F71','EX']input: 'None
+INOTRÓPICOS: ['=+Monitoreo!I65','EY']input: 'None
+NORA: ['=+Monitoreo!I66','EZ']input: 'None
+VASOPRESINA: ['=+Monitoreo!I67','FA']input: 'None
+DOPA: ['=+Monitoreo!I68','FB']input: 'None
+NORA/VASO: ['=+Monitoreo!I69','FC']input: 'None
+DOBUTA: ['=+Monitoreo!I70','FD']input: 'None
+MILRI: ['=+Monitoreo!I71','FE']input: 'None
+OTROS INOTRÓPICOS: ['=+Monitoreo!I72','FF']input: 'None
+ANTIPSICÓTICOS: ['=+Monitoreo!M69','FG']input: 'None
+QTP: ['=+Monitoreo!M70','FH']input: 'None
+HLP: ['=+Monitoreo!M71','FI']input: 'None
+QTP/HLP: ['=+Monitoreo!M72','FJ']input: 'None
+BNM: ['=+Monitoreo!P69','FK']input: 'None
+ATRA: ['=+Monitoreo!P70','FL']input: 'None
+ROCURONIO: ['=+Monitoreo!P71','FM']input: 'None
+POSITIVO: ['=+Monitoreo!M65','FN']input: 'None
+NEGATIVO: ['=+Monitoreo!M66','FO']input: 'None
+N/E: ['=+Monitoreo!M67','FP']input: 'None
+1: ['=+Monitoreo!C29','FQ']input: 'None
+2: ['=+Monitoreo!D29','FR']input: 'None
+3: ['=+Monitoreo!E29','FS']input: 'None
+5: ['=+Monitoreo!G29','FT']input: 'None
+7: ['=+Monitoreo!I29','FU']input: 'None
+1: ['=+Monitoreo!C30','FV']input: 'None
+2: ['=+Monitoreo!D30','FW']input: 'None
+3: ['=+Monitoreo!E30','FX']input: 'None
+5: ['=+Monitoreo!G30','FY']input: 'None
+7: ['=+Monitoreo!I30','FZ']input: 'None
+1: ['=+Monitoreo!C31','GA']input: 'None
+2: ['=+Monitoreo!D31','GB']input: 'None
+3: ['=+Monitoreo!E31','GC']input: 'None
+5: ['=+Monitoreo!G31','GD']input: 'None
+7: ['=+Monitoreo!I31','GE']input: 'None
+1: ['=+Monitoreo!C32','GF']input: 'None
+2: ['=+Monitoreo!D32','GG']input: 'None
+3: ['=+Monitoreo!E32','GH']input: 'None
+5: ['=+Monitoreo!G32','GI']input: 'None
+7: ['=+Monitoreo!I32','GJ']input: 'None
+1: ['=+Monitoreo!C33','GK']input: 'None
+2: ['=+Monitoreo!D33','GL']input: 'None
+3: ['=+Monitoreo!E33','GM']input: 'None
+5: ['=+Monitoreo!G33','GN']input: 'None
+7: ['=+Monitoreo!I33','GO']input: 'None
+1: ['=+Monitoreo!C37','GP']input: 'None
+2: ['=+Monitoreo!D37','GQ']input: 'None
+3: ['=+Monitoreo!E37','GR']input: 'None
+5: ['=+Monitoreo!G37','GS']input: 'None
+7: ['=+Monitoreo!I37','GT']input: 'None
+1: ['=+Monitoreo!C39','GU']input: 'None
+2: ['=+Monitoreo!D39','GV']input: 'None
+3: ['=+Monitoreo!E39','GW']input: 'None
+5: ['=+Monitoreo!G39','GX']input: 'None
+7: ['=+Monitoreo!I39','GY']input: 'None
+1: ['=+Monitoreo!C40','GZ']input: 'None
+2: ['=+Monitoreo!D40','HA']input: 'None
+3: ['=+Monitoreo!E40','HB']input: 'None
+5: ['=+Monitoreo!G40','HC']input: 'None
+7: ['=+Monitoreo!I40','HD']input: 'None
+1: ['=+Monitoreo!C41','HE']input: 'None
+2: ['=+Monitoreo!D41','HF']input: 'None
+3: ['=+Monitoreo!E41','HG']input: 'None
+5: ['=+Monitoreo!G41','HH']input: 'None
+7: ['=+Monitoreo!I41','HI']input: 'None
+1: ['=+Monitoreo!C42','HJ']input: 'None
+2: ['=+Monitoreo!D42','HK']input: 'None
+3: ['=+Monitoreo!E42','HL']input: 'None
+5: ['=+Monitoreo!G42','HM']input: 'None
+7: ['=+Monitoreo!I42','HN']input: 'None
+1: ['=+Monitoreo!C51','HO']input: 'None
+2: ['=+Monitoreo!D51','HP']input: 'None
+3: ['=+Monitoreo!E51','HQ']input: 'None
+5: ['=+Monitoreo!G51','HR']input: 'None
+7: ['=+Monitoreo!I51','HS']input: 'None
+1: ['=+Monitoreo!C47','HT']input: 'None
+2: ['=+Monitoreo!D47','HU']input: 'None
+3: ['=+Monitoreo!E47','HV']input: 'None
+5: ['=+Monitoreo!G47','HW']input: 'None
+7: ['=+Monitoreo!I47','HX']input: 'None
+1: ['=+Monitoreo!C52','HY']input: 'None
+2: ['=+Monitoreo!D52','HZ']input: 'None
+3: ['=+Monitoreo!E52','IA']input: 'None
+5: ['=+Monitoreo!G52','IB']input: 'None
+7: ['=+Monitoreo!I52','IC']input: 'None
+1: ['=+Monitoreo!C53','ID']input: 'None
+2: ['=+Monitoreo!D53','IE']input: 'None
+3: ['=+Monitoreo!E53','IF']input: 'None
+5: ['=+Monitoreo!G53','IG']input: 'None
+7: ['=+Monitoreo!I53','IH']input: 'None
+1: ['=+Monitoreo!C50','II']input: 'None
+2: ['=+Monitoreo!D50','IJ']input: 'None
+3: ['=+Monitoreo!E50','IK']input: 'None
+5: ['=+Monitoreo!G50','IL']input: 'None
+7: ['=+Monitoreo!I50','IM']input: 'None
+1: ['=+Monitoreo!C54','IN']input: 'None
+2: ['=+Monitoreo!D54','IO']input: 'None
+3: ['=+Monitoreo!E54','IP']input: 'None
+5: ['=+Monitoreo!G54','IQ']input: 'None
+7: ['=+Monitoreo!I54','IR']input: 'None
+1: ['=+Monitoreo!C55','IS']input: 'None
+2: ['=+Monitoreo!D55','IT']input: 'None
+3: ['=+Monitoreo!E55','IU']input: 'None
+5: ['=+Monitoreo!G55','IV']input: 'None
+7: ['=+Monitoreo!I55','IW']input: 'None
+1: ['=+Monitoreo!C56','IX']input: 'None
+2: ['=+Monitoreo!D56','IY']input: 'None
+3: ['=+Monitoreo!E56','IZ']input: 'None
+5: ['=+Monitoreo!G56','JA']input: 'None
+7: ['=+Monitoreo!I56','JB']input: 'None
+1: ['=+Monitoreo!C61','JC']input: 'None
+2: ['=+Monitoreo!D61','JD']input: 'None
+3: ['=+Monitoreo!E61','JE']input: 'None
+5: ['=+Monitoreo!G61','JF']input: 'None
+7: ['=+Monitoreo!I61','JG']input: 'None
+1: ['=+Monitoreo!C57','JH']input: 'None
+2: ['=+Monitoreo!D57','JI']input: 'None
+3: ['=+Monitoreo!E57','JJ']input: 'None
+5: ['=+Monitoreo!G57','JK']input: 'None
+7: ['=+Monitoreo!I57','JL']input: 'None
+1: ['=+Monitoreo!C58','JM']input: 'None
+2: ['=+Monitoreo!D58','JN']input: 'None
+3: ['=+Monitoreo!E58','JO']input: 'None
+5: ['=+Monitoreo!G58','JP']input: 'None
+7: ['=+Monitoreo!I58','JQ']input: 'None
+1: ['=+Monitoreo!C44','JR']input: 'None
+2: ['=+Monitoreo!D44','JS']input: 'None
+3: ['=+Monitoreo!E44','JT']input: 'None
+5: ['=+Monitoreo!G44','JU']input: 'None
+7: ['=+Monitoreo!I44','JV']input: 'None
+1: ['=+Monitoreo!C45','JW']input: 'None
+2: ['=+Monitoreo!D45','JX']input: 'None
+3: ['=+Monitoreo!E45','JY']input: 'None
+5: ['=+Monitoreo!G45','JZ']input: 'None
+7: ['=+Monitoreo!I45','KA']input: 'None
+1: ['=+Monitoreo!C62','KB']input: 'None
+2: ['=+Monitoreo!D62','KC']input: 'None
+3: ['=+Monitoreo!E62','KD']input: 'None
+5: ['=+Monitoreo!G62','KE']input: 'None
+7: ['=+Monitoreo!I62','KF']input: 'None
+1: ['=+Monitoreo!C20','KG']input: 'None
+2: ['=+Monitoreo!D20','KH']input: 'None
+3: ['=+Monitoreo!E20','KI']input: 'None
+5: ['=+Monitoreo!G20','KJ']input: 'None
+7: ['=+Monitoreo!I20','KK']input: 'None
+1: ['=+Monitoreo!C22','KL']input: 'None
+2: ['=+Monitoreo!D22','KM']input: 'None
+3: ['=+Monitoreo!E22','KN']input: 'None
+5: ['=+Monitoreo!G22','KO']input: 'None
+7: ['=+Monitoreo!I22','KP']input: 'None
+1: ['=+Monitoreo!C21','KQ']input: 'None
+2: ['=+Monitoreo!D21','KR']input: 'None
+3: ['=+Monitoreo!E21','KS']input: 'None
+5: ['=+Monitoreo!G21','KT']input: 'None
+7: ['=+Monitoreo!I21','KU']input: 'None
+1: ['=+Monitoreo!C25','KV']input: 'None
+2: ['=+Monitoreo!D25','KW']input: 'None
+3: ['=+Monitoreo!E25','KX']input: 'None
+5: ['=+Monitoreo!G25','KY']input: 'None
+7: ['=+Monitoreo!I25','KZ']input: 'None
+1: ['=+Monitoreo!C10','LA']input: 'None
+2: ['=+Monitoreo!D10','LB']input: 'None
+3: ['=+Monitoreo!E10','LC']input: 'None
+5: ['=+Monitoreo!G10','LD']input: 'None
+7: ['=+Monitoreo!I10','LE']input: 'None
+1: ['=+Monitoreo!C28','LF']input: 'None
+2: ['=+Monitoreo!D28','LG']input: 'None
+3: ['=+Monitoreo!E28','LH']input: 'None
+5: ['=+Monitoreo!G28','LI']input: 'None
+7: ['=+Monitoreo!I28','LJ']input: 'None
+1: ['None','LK']input: 'None
+2: ['None','LL']input: 'None
+3: ['None','LM']input: 'None
+5: ['None','LN']input: 'None
+7: ['None','LO']input: 'None
+7: ['0','LP']input: 'None
+7: ['None','LQ']input: 'None
